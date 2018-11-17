@@ -26,4 +26,4 @@ class PhoronixTestSuite:
 
 
 pts = PhoronixTestSuite()
-pts.install_tests()
+pts.run_tests()

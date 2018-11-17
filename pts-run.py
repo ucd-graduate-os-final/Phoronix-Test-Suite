@@ -19,10 +19,16 @@ class PhoronixTestSuite:
         for test in self._tests:
             file_name = os.path.join('~/phoronix-test-suite', 'test_results', self._create_result_name(test))
             os.system('phoronix-test-suite batch-run {} {}'.format(test, file_name))
+            self._stop_vm_instance()
+        print("All tests completed. ")
+        self._stop_vm_instance()
 
     def install_tests(self):
         for test in self._tests:
             os.system('phoronix-test-suite install {}'.format(test))
+
+    def _stop_vm_instance(self):
+        os.system('sudo shutdown -h now')
 
 
 pts = PhoronixTestSuite()

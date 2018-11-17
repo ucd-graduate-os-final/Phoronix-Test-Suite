@@ -27,7 +27,8 @@ class PhoronixTestSuite:
             file_name = self._create_result_name(test)
             file_path = os.path.join('~/phoronix-test-suite', 'test_results', file_name)
             os.system('phoronix-test-suite batch-run {} {}'.format(test, file_path))
-            self._move_file(file_path, os.path.join('~/{}'.format(self._git_folder), 'test_results', file_name))
+            self._move_file(file_path, os.path.join('~/{}'.format(self._git_folder), 'test_results', self._magic,
+                                                    file_name))
         print("All tests completed. ")
         self._push_to_git()
         self._stop_vm_instance()

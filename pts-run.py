@@ -2,7 +2,7 @@ import os
 import sys
 import shutil
 import datetime
-
+print(len(sys.argv))
 if(len(sys.argv)) != 3:
     raise Exception("This file takes 3 arguments. Exiting...")
 

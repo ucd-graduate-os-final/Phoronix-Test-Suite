@@ -54,9 +54,9 @@ class PhoronixTestSuite:
 
 
 pts = PhoronixTestSuite()
-if sys.argv[2] == 'install':
+if sys.argv[1] == 'install':
     pts.install_tests()
-elif sys.argv[2] == 'run':
+elif sys.argv[1] == 'run':
     pts.run_tests()
 else:
     raise Exception("Sorry, your last argument was invalid. Exiting...")

@@ -25,7 +25,7 @@ class PhoronixTestSuite:
 
     def run_tests(self):
         for test in self._tests:
-            print("Running: {}".format('phoronix-test-suite result-file-to-json batch-run {}'.format(test)))
+            print("Running: {}".format('phoronix-test-suite batch-run {}'.format(test)))
             os.system('phoronix-test-suite result-file-to-json batch-run {}'.format(test))
         print("All tests completed. ")
         self._move_folder_contents(self._test_suite_path, os.path.join(self._git_folder, self._magic))

@@ -49,7 +49,12 @@ class PhoronixTestSuite:
 
     def _remove_folder_contents(self, path):
         try:
-            shutil.rmtree(path)
+            files = os.listdir(path)
+            for file in files:
+                if os.path.isfile(file):
+                    os.remove(file)
+                elif os.path.isdir(file):
+                    os.rmdir(file)
         except OSError:
             print("{} failed to be deleted. Do this manually".format(path))
         except Exception:

@@ -25,6 +25,7 @@ class PhoronixTestSuite:
 
     def run_tests(self):
         for test in self._tests:
+            print("Running: {}".format('phoronix-test-suite result-file-to-json batch-run {}'.format(test)))
             os.system('phoronix-test-suite result-file-to-json batch-run {}'.format(test))
         print("All tests completed. ")
         self._move_folder_contents(self._test_suite_path, os.path.join(self._git_folder, self._magic))
@@ -43,7 +44,7 @@ class PhoronixTestSuite:
         try:
             shutil.copytree(from_path, to_path)
         except OSError:
-            print("{} failed to be moved to {}. Do thhis manually.".format(from_path, to_path))
+            print("{} failed to be moved to {}. Do this manually.".format(from_path, to_path))
         except Exception:
             raise Exception("Unknown error occurred. Exiting...")
 

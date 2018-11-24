@@ -40,16 +40,16 @@ class PhoronixTestSuite:
         os.system('sudo shutdown -h now')
 
     def _move_folder_contents(self, from_path, to_path):
-        try:
-            if not os.path.exists(os.path.join(self._git_folder, self._magic)):
-                os.mkdir(os.path.join(self._git_folder, self._magic))
-            os.system('sudo mv {} {}'.format(os.path.join(self._test_suite_path, '*'),
-                                             os.path.join(self._git_folder, self._magic)))
+        # try:
+        if not os.path.exists(os.path.join(self._git_folder, self._magic)):
+            os.mkdir(os.path.join(self._git_folder, self._magic))
+        os.system('sudo mv {} {}'.format(os.path.join(self._test_suite_path, '*'),
+                                         os.path.join(self._git_folder, self._magic)))
             # shutil.copytree(from_path, to_path)
-        except OSError:
-            print("{} failed to be moved to {}. Do this manually.".format(from_path, to_path))
-        except Exception:
-            raise Exception("Unknown error occurred. Exiting...")
+        # except OSError:
+        #     print("{} failed to be moved to {}. Do this manually.".format(from_path, to_path))
+        # except Exception:
+        #     raise Exception("Unknown error occurred. Exiting...")
 
     # def _remove_folder_contents(self, path):
     #     try:

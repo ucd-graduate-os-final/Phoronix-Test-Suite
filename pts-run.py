@@ -28,7 +28,7 @@ class PhoronixTestSuite:
         #     os.system('phoronix-test-suite batch-run {}'.format(test))
         print("All tests completed. ")
         self._move_folder_contents(self._test_suite_path, os.path.join(self._git_folder, self._magic))
-        self._remove_folder_contents(self._test_suite_path)
+        # self._remove_folder_contents(self._test_suite_path)
         self._push_to_git()
         # self._stop_vm_instance()
 
@@ -41,25 +41,26 @@ class PhoronixTestSuite:
 
     def _move_folder_contents(self, from_path, to_path):
         try:
-            os.system('sudo mv {} {}'.format(self._test_suite_path, self._git_folder))
+            os.system('sudo mv {} {}'.format(os.path.join(self._test_suite_path, '*'),
+                                             os.path.join(self._git_folder, self._magic)))
             # shutil.copytree(from_path, to_path)
         except OSError:
             print("{} failed to be moved to {}. Do this manually.".format(from_path, to_path))
         except Exception:
             raise Exception("Unknown error occurred. Exiting...")
 
-    def _remove_folder_contents(self, path):
-        try:
-            files = os.listdir(path)
-            for file in files:
-                if os.path.isfile(file):
-                    os.remove(file)
-                elif os.path.isdir(file):
-                    os.rmdir(file)
-        except OSError:
-            print("{} failed to be deleted. Do this manually".format(path))
-        except Exception:
-            raise Exception("Unknown error occured. Exiting...")
+    # def _remove_folder_contents(self, path):
+    #     try:
+    #         files = os.listdir(path)
+    #         for file in files:
+    #             if os.path.isfile(file):
+    #                 os.remove(file)
+    #             elif os.path.isdir(file):
+    #                 os.rmdir(file)
+    #     except OSError:
+    #         print("{} failed to be deleted. Do this manually".format(path))
+    #     except Exception:
+    #         raise Exception("Unknown error occured. Exiting...")
 
     def _push_to_git(self):
         print(self._git_name)

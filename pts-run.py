@@ -41,6 +41,8 @@ class PhoronixTestSuite:
 
     def _move_folder_contents(self, from_path, to_path):
         try:
+            print(os.path.join(self._test_suite_path, '*'))
+            print(os.path.join(self._git_folder, self._magic))
             os.system('sudo mv {} {}'.format(os.path.join(self._test_suite_path, '*'),
                                              os.path.join(self._git_folder, self._magic)))
             # shutil.copytree(from_path, to_path)

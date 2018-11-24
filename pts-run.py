@@ -41,7 +41,8 @@ class PhoronixTestSuite:
 
     def _move_folder_contents(self, from_path, to_path):
         try:
-            shutil.copytree(from_path, to_path)
+            os.system('sudo mv {} {}'.format(self._test_suite_path, self._git_folder))
+            # shutil.copytree(from_path, to_path)
         except OSError:
             print("{} failed to be moved to {}. Do this manually.".format(from_path, to_path))
         except Exception:

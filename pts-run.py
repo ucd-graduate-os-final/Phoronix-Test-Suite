@@ -61,6 +61,7 @@ class PhoronixTestSuite:
             raise Exception("Unknown error occured. Exiting...")
 
     def _push_to_git(self):
+        print(self._git_name)
         os.system('git commit {}'.format(self._git_name))
         os.system('git push {}'.format(self._git_name))
         os.system('git pull {}'.format(self._git_name))

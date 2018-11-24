@@ -46,7 +46,7 @@ class PhoronixTestSuite:
 
     def _push_to_git(self):
         os.system('cd {}'.format(self._git_folder))
-        os.system('git -m commit "{}"'.format('Update Code'))
+        os.system('git commit "{}"'.format('Update Code'))
         os.system('git push origin master')
         os.system('git pull {}'.format(self._git_name))
 

@@ -1,7 +1,6 @@
 import os
 import sys
 import datetime
-from git import repo, remote
 
 if(len(sys.argv)) != 2:
     raise Exception("This file takes 3 arguments. Exiting...")
@@ -46,9 +45,7 @@ class PhoronixTestSuite:
         os.system('sudo mv {} {}'.format(os.path.join(from_path, '*'), to_path))
 
     def _push_to_git(self):
-        os.system('git config -global --user.name "historybuffjb"')
-        os.system('git config -global --user.email "historybuffjb@gmail.com"')
-        os.system('cd ~/Phoronix-Test-Suite')
+        os.system('cd {}'.format(self._git_folder))
         os.system('git -m commit "{}"'.format('Update Code'))
         os.system('git push origin master')
         os.system('git pull {}'.format(self._git_name))

@@ -41,8 +41,10 @@ class PhoronixTestSuite:
 
     def _move_folder_contents(self, from_path, to_path):
         # try:
-        if not os.path.exists(os.path.join(self._git_folder, self._magic)):
-            os.mkdir(os.path.join(self._git_folder, self._magic))
+        try:
+            os.system('mkdir {}'.format(os.path.join(self._git_folder, self._magic)))
+        except Exception:
+            pass
         os.system('sudo mv {} {}'.format(os.path.join(self._test_suite_path, '*'),
                                          os.path.join(self._git_folder, self._magic)))
             # shutil.copytree(from_path, to_path)

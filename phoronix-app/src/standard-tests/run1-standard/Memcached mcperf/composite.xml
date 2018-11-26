@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.2.0-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>2018-11-24-1619</Title>
+    <LastModified>2018-11-24 17:44:38</LastModified>
+    <TestClient>Phoronix Test Suite v8.2.0 (Rakkestad)</TestClient>
+    <Description>KVM testing on Ubuntu 18.04 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>2018-11-24 16:19</Identifier>
+    <Hardware>Processor: Intel Xeon @ 2.30GHz (4 Cores / 8 Threads), Motherboard: Google Compute Engine, Chipset: Intel 440FX- 82441FX PMC, Memory: 30720MB, Disk: 54GB PersistentDisk, Network: Red Hat Virtio device</Hardware>
+    <Software>OS: Ubuntu 18.04, Kernel: 4.15.0-1024-gcp (x86_64), Compiler: GCC 7.3.0, File-System: ext4, System Layer: KVM</Software>
+    <User>historybuffjb</User>
+    <TimeStamp>2018-11-24 16:19:28</TimeStamp>
+    <TestClientVersion>8.2.0</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=x86_64-linux-gnu --disable-vtable-verify --disable-werror --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-gnu-unique-object --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --enable-libmpx --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-multilib --enable-nls --enable-objc-gc=auto --enable-offload-targets=nvptx-none --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --program-prefix=x86_64-linux-gnu- --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-default-libstdcxx-abi=new --with-gcc-major-version-only --with-multilib-list=m32,m64,mx32 --with-target-system-zlib --with-tune=generic --without-cuda-driver -v","security":"KPTI + __user pointer sanitization + Full generic retpoline IBPB IBRS_FW + SSB disabled via prctl and seccomp + PTE Inversion"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/mcperf-1.1.1</Identifier>
+    <Title>Memcached mcperf</Title>
+    <AppVersion>1.5.10</AppVersion>
+    <Arguments>--method=add</Arguments>
+    <Description>Method: Add</Description>
+    <Scale>Operations Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-11-24 16:19</Identifier>
+        <Value>11948.12</Value>
+        <RawString>11290.6:12670.8:12601.6:10837.1:11762.2:11268.8:13241.2:10798.6:12419.3:11877.7:11344.4:13265.1</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lm -rdynamic"},"test-run-times":"95.10:84.94:85.37:98.29:91.03:94.75:81.54:98.62:86.53:90.20:94.16:81.40"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/mcperf-1.1.1</Identifier>
+    <Title>Memcached mcperf</Title>
+    <AppVersion>1.5.10</AppVersion>
+    <Arguments>--method=get</Arguments>
+    <Description>Method: Get</Description>
+    <Scale>Operations Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-11-24 16:19</Identifier>
+        <Value>38138.27</Value>
+        <RawString>37951.4:38555.7:37907.7</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lm -rdynamic"},"test-run-times":"32.36:31.95:32.39"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/mcperf-1.1.1</Identifier>
+    <Title>Memcached mcperf</Title>
+    <AppVersion>1.5.10</AppVersion>
+    <Arguments>--method=set</Arguments>
+    <Description>Method: Set</Description>
+    <Scale>Operations Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-11-24 16:19</Identifier>
+        <Value>11484.59</Value>
+        <RawString>11749.5:13352.1:11341.4:11415.2:10231:11809.6:12013.3:10411.4:11542.4:11532.9:10731.4:11684.9</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lm -rdynamic"},"test-run-times":"91.12:80.91:94.18:93.61:103.75:90.69:89.25:102.06:92.65:92.72:99.20:91.59"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/mcperf-1.1.1</Identifier>
+    <Title>Memcached mcperf</Title>
+    <AppVersion>1.5.10</AppVersion>
+    <Arguments>--method=append</Arguments>
+    <Description>Method: Append</Description>
+    <Scale>Operations Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-11-24 16:19</Identifier>
+        <Value>13656.01</Value>
+        <RawString>12524.2:10914.9:12830.8:13162.8:14364.9:12485.1:15362:15494:14825:12691.9:14689.3:14527.2</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lm -rdynamic"},"test-run-times":"85.86:97.63:83.95:81.98:75.63:86.11:71.11:70.55:73.47:84.80:74.09:74.85"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/mcperf-1.1.1</Identifier>
+    <Title>Memcached mcperf</Title>
+    <AppVersion>1.5.10</AppVersion>
+    <Arguments>--method=delete</Arguments>
+    <Description>Method: Delete</Description>
+    <Scale>Operations Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-11-24 16:19</Identifier>
+        <Value>38181.57</Value>
+        <RawString>38216.5:39019:37309.2</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lm -rdynamic"},"test-run-times":"32.18:31.64:32.82"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/mcperf-1.1.1</Identifier>
+    <Title>Memcached mcperf</Title>
+    <AppVersion>1.5.10</AppVersion>
+    <Arguments>--method=prepend</Arguments>
+    <Description>Method: Prepend</Description>
+    <Scale>Operations Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-11-24 16:19</Identifier>
+        <Value>14796.22</Value>
+        <RawString>13776.2:15384.9:14875.5:14985.3:12808.3:14969.2:15194.2:15243.1:13239:17486.5</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lm -rdynamic"},"test-run-times":"78.60:71.01:73.24:72.75:84.09:72.82:71.83:71.62:81.55:63.20"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/mcperf-1.1.1</Identifier>
+    <Title>Memcached mcperf</Title>
+    <AppVersion>1.5.10</AppVersion>
+    <Arguments>--method=replace</Arguments>
+    <Description>Method: Replace</Description>
+    <Scale>Operations Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-11-24 16:19</Identifier>
+        <Value>14498.39</Value>
+        <RawString>14534.3:14737.7:11984.9:14120.6:15616.1:15332.4:13304.4:15198.2:15627.8:15420.6:13018.3:15085.4</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lm -rdynamic"},"test-run-times":"74.82:73.87:89.46:76.83:70.05:71.23:81.18:71.81:70.00:70.86:82.83:72.30"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

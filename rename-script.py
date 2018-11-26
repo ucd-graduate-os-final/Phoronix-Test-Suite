@@ -12,16 +12,18 @@ tests = ['blogbench', 'c-ray', 'cachebench', 'dacapobench', 'dolfyn', 'glibc-ben
 
 paths = os.listdir(path)
 results = {}
+# Get paths that need name changed
 for result in paths:
     if result[0] != '.':
-        results[result] = [int(x.replace('-', '')) for x in os.listdir(os.path.join(path, result))
-                           if not x.startswith('.')]
+        results[result] = [x for x in os.listdir(os.path.join(path, result))
+                           if not x.startswith('.') and x.count('-') == 3]
+# Rename top level folder names
 for x in results.keys():
-    name_counter = 0
+    # It always starts out with 'PhoronixTestSuite'
     for y in results[x]:
-        final_folder = '{}-{}-{}-{}'.format(str(y)[0:4], str(y)[4:6], str(y)[6:8], str(y)[8:12])
-        final_path = os.path.join(path, x, final_folder, 'composite.xml')
+        final_path = os.path.join(path, x, y, 'composite.xml')
         if os.path.exists(final_path):
+            name = ''
             with open(final_path) as fd:
                 doc = xmltodict.parse(fd.read())
             try:
@@ -33,9 +35,12 @@ for x in results.keys():
                         name = doc['PhoronixTestSuite']['Result']['Title']
             except Exception as e:
                 print("Exception {} happened".format(e))
-            os.rename(os.path.join(path, x, final_folder), os.path.join(path, x, name))
+            os.rename(os.path.join(path, x, y), os.path.join(path, x, name))
         else:
             print("Did not find {}".format(final_path))
+
+# Repackage results in each folder for consumption
+
 
 
 

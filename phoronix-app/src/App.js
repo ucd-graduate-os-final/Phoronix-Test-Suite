@@ -1,20 +1,21 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+import SideBar from './sidebar';
+
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Whale of a good time: Comparisons between containers and VMs.
-          </p>
-        </header>
+export default function App() {
+  return (
+    <div id="App">
+      <SideBar />
+      <div id="header">
+        <h1>Whale of a good time. A look at virtual machine benchmarks</h1>
       </div>
-    );
-  }
+      <div id="Body">
+      
+      </div>
+      <div id="footer">
+      </div>
+    </div>
+  );
 }
 
-export default App;

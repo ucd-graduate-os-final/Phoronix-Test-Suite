@@ -8,13 +8,13 @@ if(len(sys.argv)) != 2:
 
 class PhoronixTestSuite:
     def __init__(self, folder_path):
-        #self._tests = ['blogbench', 'c-ray', 'cachebench', 'dacapobench', 'dolfyn', 'glibc-bench',
-        #               'himeno', 'hmmer', 'hpcg', 'iperf', 'lammps', 'm-queens', 'mcperf',
-        #               'mrbayes', 'namd', 'netperf', 'osbench', 'pjdfstest', 'polybench-c',
-        #               'primesieve', 'psstop', 'sample-program', 'schbench', 'startup-time', 'stockfish',
-        #               'sysbench', 'systemd-boot-kernel', 'systemd-boot-total', 'systemd-boot-userspace-1.0.1',
-        #               'tachyon']
-        self._tests = ['himeno']
+        self._tests = ['blogbench', 'c-ray', 'cachebench', 'dacapobench', 'dolfyn', 'glibc-bench',
+                       'himeno', 'hmmer', 'hpcg', 'iperf', 'lammps', 'm-queens', 'mcperf',
+                       'mrbayes', 'namd', 'netperf', 'osbench', 'pjdfstest', 'polybench-c',
+                       'primesieve', 'psstop', 'sample-program', 'schbench', 'startup-time', 'stockfish',
+                       'sysbench', 'systemd-boot-kernel', 'systemd-boot-total', 'systemd-boot-userspace-1.0.1',
+                       'tachyon']
+        #self._tests = ['himeno']
         self._magic = str(datetime.datetime.now()).replace(' ', '').replace(':', '').replace('.', '').replace('-', '')
         self._git_name = 'https://github.com/ucd-graduate-os-final/Phoronix-Test-Suite'
         self._git_folder = folder_path
@@ -29,7 +29,7 @@ class PhoronixTestSuite:
         print("All tests completed. ")
         self._move_folder_contents(self._test_suite_path, os.path.join(self._git_folder, self._magic))
         self._push_to_git()
-        self._stop_vm_instance()
+        #self._stop_vm_instance()
 
     def install_tests(self):
         for test in self._tests:

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.0.1-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>2018-11-28-0719</Title>
+    <LastModified>2018-11-28 07:33:47</LastModified>
+    <TestClient>Phoronix Test Suite v8.0.1 (Aremark)</TestClient>
+    <Description>KVM testing on Clear Linux OS 24870 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>Intel Xeon</Identifier>
+    <Hardware>Processor: Intel Xeon @ 2.20GHz (4 Cores / 8 Threads), Motherboard: Google Compute Engine, Memory: 30720MB, Disk: 268GB PersistentDisk</Hardware>
+    <Software>OS: Clear Linux OS 24870, Kernel: 4.15.0-1024-gcp (x86_64), Compiler: GCC 8.2.0 + Clang 6.0.1 + LLVM 6.0.1, File-System: aufs, System Layer: KVM</Software>
+    <User>root</User>
+    <TimeStamp>2018-11-28 07:19:55</TimeStamp>
+    <TestClientVersion>8.0.1</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"environment-variables":"CFFLAGS=-g-O3-feliminate-unused-debug-types-pipe-Wall-Wp-D_FORTIFY_SOURCE=2-fexceptions-fstack-protector--param=ssp-buffer-size=32-Wl--copy-dt-needed-entries-m64-fasynchronous-unwind-tables-Wp-D_REENTRANT-ftree-loop-distribute-patterns-Wl-z-Wl now-Wl-z-Wl relro-malign-data=abi-fno-semantic-interposition-ftree-vectorize-ftree-loop-vectorize-Wl-sort-common-Wl--enable-new-dtags CFLAGS=-g-O3-feliminate-unused-debug-types-pipe-Wall-Wp-D_FORTIFY_SOURCE=2-fexceptions-fstack-protector--param=ssp-buffer-size=32-Wformat-Wformat-security-Wl--copy-dt-needed-entries-m64-fasynchronous-unwind-tables-Wp-D_REENTRANT-ftree-loop-distribute-patterns-Wl-z-Wl now-Wl-z-Wl relro-fno-semantic-interposition-ffat-lto-objects-fno-signed-zeros-fno-trapping-math-fassociative-math-Wl-sort-common-Wl--enable-new-dtags CXXFLAGS=-g-O3-feliminate-unused-debug-types-pipe-Wall-Wp-D_FORTIFY_SOURCE=2-fexceptions-fstack-protector--param=ssp-buffer-size=32-Wformat-Wformat-security-Wl--copy-dt-needed-entries-m64-fasynchronous-unwind-tables-Wp-D_REENTRANT-ftree-loop-distribute-patterns-Wl-z-Wl now-Wl-z-Wl relro-fno-semantic-interposition-ffat-lto-objects-fno-signed-zeros-fno-trapping-math-fassociative-math-Wl-sort-common-Wl--enable-new-dtags-fvisibility-inlines-hidden-Wl--enable-new-dtags FFLAGS=-g-O3-feliminate-unused-debug-types-pipe-Wall-Wp-D_FORTIFY_SOURCE=2-fexceptions-fstack-protector--param=ssp-buffer-size=32-Wl--copy-dt-needed-entries-m64-fasynchronous-unwind-tables-Wp-D_REENTRANT-ftree-loop-distribute-patterns-Wl-z-Wl now-Wl-z-Wl relro-malign-data=abi-fno-semantic-interposition-ftree-vectorize-ftree-loop-vectorize-Wl--enable-new-dtags THEANO_FLAGS=floatX=float32 openmp=true gcc.cxxflags=\"-ftree-vectorize-mavx\"","security":"KPTI + __user pointer sanitization + Full generic retpoline Protection"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/namd-1.0.0</Identifier>
+    <Title>NAMD</Title>
+    <AppVersion>2.13b1</AppVersion>
+    <Arguments></Arguments>
+    <Description>ATPase Simulation - 327,506 Atoms</Description>
+    <Scale>days/ns</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Xeon</Identifier>
+        <Value>5.99547</Value>
+        <RawString>5.98668:6.03809:5.96165</RawString>
+        <JSON>{"test-run-times":"277.47:275.70:274.74"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

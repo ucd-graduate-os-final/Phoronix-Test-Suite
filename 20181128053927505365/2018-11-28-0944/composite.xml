@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.0.1-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>2018-11-28-0944</Title>
+    <LastModified>2018-11-28 09:44:46</LastModified>
+    <TestClient>Phoronix Test Suite v8.0.1 (Aremark)</TestClient>
+    <Description>KVM testing on Clear Linux OS 24870 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>Intel Xeon</Identifier>
+    <Hardware>Processor: Intel Xeon @ 2.20GHz (4 Cores / 8 Threads), Motherboard: Google Compute Engine, Memory: 30720MB, Disk: 268GB PersistentDisk</Hardware>
+    <Software>OS: Clear Linux OS 24870, Kernel: 4.15.0-1024-gcp (x86_64), Compiler: GCC 8.2.0 + Clang 6.0.1 + LLVM 6.0.1, File-System: aufs, System Layer: KVM</Software>
+    <User>root</User>
+    <TimeStamp>2018-11-28 09:44:07</TimeStamp>
+    <TestClientVersion>8.0.1</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=x86_64-generic-linux --disable-libmpx --disable-libunwind-exceptions --disable-multiarch --disable-vtable-verify --enable-__cxa_atexit --enable-bootstrap --enable-clocale=gnu --enable-gnu-indirect-function --enable-languages=c,c++,fortran,go --enable-ld=default --enable-libstdcxx-pch --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --exec-prefix=\/usr --includedir=\/usr\/include --target=x86_64-generic-linux --with-arch=westmere --with-glibc-version=2.19 --with-gnu-ld --with-isl --with-ppl=yes --with-tune=haswell","environment-variables":"CFFLAGS=-g-O3-feliminate-unused-debug-types-pipe-Wall-Wp-D_FORTIFY_SOURCE=2-fexceptions-fstack-protector--param=ssp-buffer-size=32-Wl--copy-dt-needed-entries-m64-fasynchronous-unwind-tables-Wp-D_REENTRANT-ftree-loop-distribute-patterns-Wl-z-Wl now-Wl-z-Wl relro-malign-data=abi-fno-semantic-interposition-ftree-vectorize-ftree-loop-vectorize-Wl-sort-common-Wl--enable-new-dtags CFLAGS=-g-O3-feliminate-unused-debug-types-pipe-Wall-Wp-D_FORTIFY_SOURCE=2-fexceptions-fstack-protector--param=ssp-buffer-size=32-Wformat-Wformat-security-Wl--copy-dt-needed-entries-m64-fasynchronous-unwind-tables-Wp-D_REENTRANT-ftree-loop-distribute-patterns-Wl-z-Wl now-Wl-z-Wl relro-fno-semantic-interposition-ffat-lto-objects-fno-signed-zeros-fno-trapping-math-fassociative-math-Wl-sort-common-Wl--enable-new-dtags CXXFLAGS=-g-O3-feliminate-unused-debug-types-pipe-Wall-Wp-D_FORTIFY_SOURCE=2-fexceptions-fstack-protector--param=ssp-buffer-size=32-Wformat-Wformat-security-Wl--copy-dt-needed-entries-m64-fasynchronous-unwind-tables-Wp-D_REENTRANT-ftree-loop-distribute-patterns-Wl-z-Wl now-Wl-z-Wl relro-fno-semantic-interposition-ffat-lto-objects-fno-signed-zeros-fno-trapping-math-fassociative-math-Wl-sort-common-Wl--enable-new-dtags-fvisibility-inlines-hidden-Wl--enable-new-dtags FFLAGS=-g-O3-feliminate-unused-debug-types-pipe-Wall-Wp-D_FORTIFY_SOURCE=2-fexceptions-fstack-protector--param=ssp-buffer-size=32-Wl--copy-dt-needed-entries-m64-fasynchronous-unwind-tables-Wp-D_REENTRANT-ftree-loop-distribute-patterns-Wl-z-Wl now-Wl-z-Wl relro-malign-data=abi-fno-semantic-interposition-ftree-vectorize-ftree-loop-vectorize-Wl--enable-new-dtags THEANO_FLAGS=floatX=float32 openmp=true gcc.cxxflags=\"-ftree-vectorize-mavx\"","security":"KPTI + __user pointer sanitization + Full generic retpoline Protection"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/tachyon-1.1.1</Identifier>
+    <Title>Tachyon</Title>
+    <AppVersion>0.98.9</AppVersion>
+    <Arguments></Arguments>
+    <Description>Total Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Xeon</Identifier>
+        <Value>11.47</Value>
+        <RawString>11.115:11.6563:11.6296</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-m32 -O3 -fomit-frame-pointer -ffast-math -ltachyon -lm -lpthread"},"test-run-times":"11.56:11.69:11.66"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

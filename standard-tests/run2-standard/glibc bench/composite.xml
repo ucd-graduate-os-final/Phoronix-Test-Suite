@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.2.0-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>2018-11-24-2150</Title>
+    <LastModified>2018-11-24 21:53:04</LastModified>
+    <TestClient>Phoronix Test Suite v8.2.0 (Rakkestad)</TestClient>
+    <Description>KVM testing on Ubuntu 18.04 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>Intel Xeon</Identifier>
+    <Hardware>Processor: Intel Xeon @ 2.30GHz (4 Cores / 8 Threads), Motherboard: Google Compute Engine, Chipset: Intel 440FX- 82441FX PMC, Memory: 30720MB, Disk: 54GB PersistentDisk, Network: Red Hat Virtio device</Hardware>
+    <Software>OS: Ubuntu 18.04, Kernel: 4.15.0-1024-gcp (x86_64), Compiler: GCC 7.3.0, File-System: ext4, System Layer: KVM</Software>
+    <User>historybuffjb</User>
+    <TimeStamp>2018-11-24 21:50:53</TimeStamp>
+    <TestClientVersion>8.2.0</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=x86_64-linux-gnu --disable-vtable-verify --disable-werror --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-gnu-unique-object --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --enable-libmpx --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-multilib --enable-nls --enable-objc-gc=auto --enable-offload-targets=nvptx-none --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --program-prefix=x86_64-linux-gnu- --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-default-libstdcxx-abi=new --with-gcc-major-version-only --with-multilib-list=m32,m64,mx32 --with-target-system-zlib --with-tune=generic --without-cuda-driver -v","security":"KPTI + __user pointer sanitization + Full generic retpoline IBPB IBRS_FW + SSB disabled via prctl and seccomp + PTE Inversion"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/glibc-bench-1.5.1</Identifier>
+    <Title>glibc bench</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments>bench-cos</Arguments>
+    <Description>Benchmark: cos</Description>
+    <Scale>nanoseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Xeon</Identifier>
+        <Value>127838</Value>
+        <RawString>127274:128348:127892</RawString>
+        <JSON>{"test-run-times":"7.75:7.35:7.34"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/glibc-bench-1.5.1</Identifier>
+    <Title>glibc bench</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments>bench-ffs</Arguments>
+    <Description>Benchmark: ffs</Description>
+    <Scale>nanoseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Xeon</Identifier>
+        <Value>5.32</Value>
+        <RawString>5.32429:5.30599:5.31883</RawString>
+        <JSON>{"test-run-times":"1.43:1.40:1.40"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/glibc-bench-1.5.1</Identifier>
+    <Title>glibc bench</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments>bench-sin</Arguments>
+    <Description>Benchmark: sin</Description>
+    <Scale>nanoseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Xeon</Identifier>
+        <Value>127291</Value>
+        <RawString>127381:127129:127364</RawString>
+        <JSON>{"test-run-times":"7.47:7.46:7.48"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/glibc-bench-1.5.1</Identifier>
+    <Title>glibc bench</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments>bench-sqrt</Arguments>
+    <Description>Benchmark: sqrt</Description>
+    <Scale>nanoseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Xeon</Identifier>
+        <Value>14.55</Value>
+        <RawString>14.6472:14.523:14.4911</RawString>
+        <JSON>{"test-run-times":"1.41:1.40:1.40"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/glibc-bench-1.5.1</Identifier>
+    <Title>glibc bench</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments>bench-tanh</Arguments>
+    <Description>Benchmark: tanh</Description>
+    <Scale>nanoseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Xeon</Identifier>
+        <Value>50.84</Value>
+        <RawString>50.3753:50.7365:51.4192</RawString>
+        <JSON>{"test-run-times":"1.41:1.40:1.40"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/glibc-bench-1.5.1</Identifier>
+    <Title>glibc bench</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments>bench-ffsll</Arguments>
+    <Description>Benchmark: ffsll</Description>
+    <Scale>nanoseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Xeon</Identifier>
+        <Value>5.29</Value>
+        <RawString>5.28165:5.30944:5.28709</RawString>
+        <JSON>{"test-run-times":"1.44:1.40:1.40"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/glibc-bench-1.5.1</Identifier>
+    <Title>glibc bench</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments>bench-pthread_once</Arguments>
+    <Description>Benchmark: pthread_once</Description>
+    <Scale>nanoseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Xeon</Identifier>
+        <Value>6.19</Value>
+        <RawString>6.19534:6.21392:6.16726</RawString>
+        <JSON>{"test-run-times":"1.41:1.40:1.40"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

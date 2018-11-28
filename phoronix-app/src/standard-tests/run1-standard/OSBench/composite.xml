@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.2.0-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>2018-11-24-1815</Title>
+    <LastModified>2018-11-24 18:18:47</LastModified>
+    <TestClient>Phoronix Test Suite v8.2.0 (Rakkestad)</TestClient>
+    <Description>KVM testing on Ubuntu 18.04 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>2018-11-24 18:15</Identifier>
+    <Hardware>Processor: Intel Xeon @ 2.30GHz (4 Cores / 8 Threads), Motherboard: Google Compute Engine, Chipset: Intel 440FX- 82441FX PMC, Memory: 30720MB, Disk: 54GB PersistentDisk, Network: Red Hat Virtio device</Hardware>
+    <Software>OS: Ubuntu 18.04, Kernel: 4.15.0-1024-gcp (x86_64), Compiler: GCC 7.3.0, File-System: ext4, System Layer: KVM</Software>
+    <User>historybuffjb</User>
+    <TimeStamp>2018-11-24 18:15:51</TimeStamp>
+    <TestClientVersion>8.2.0</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=x86_64-linux-gnu --disable-vtable-verify --disable-werror --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-gnu-unique-object --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --enable-libmpx --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-multilib --enable-nls --enable-objc-gc=auto --enable-offload-targets=nvptx-none --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --program-prefix=x86_64-linux-gnu- --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-default-libstdcxx-abi=new --with-gcc-major-version-only --with-multilib-list=m32,m64,mx32 --with-target-system-zlib --with-tune=generic --without-cuda-driver -v","security":"KPTI + __user pointer sanitization + Full generic retpoline IBPB IBRS_FW + SSB disabled via prctl and seccomp + PTE Inversion"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/osbench-1.0.1</Identifier>
+    <Title>OSBench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>create_files.exe target</Arguments>
+    <Description>Test: Create Files</Description>
+    <Scale>us Per Event</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-11-24 18:15</Identifier>
+        <Value>26.49</Value>
+        <RawString>26.104954:26.039079:27.339135</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lm"},"test-run-times":"6.14:5.32:5.57"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/osbench-1.0.1</Identifier>
+    <Title>OSBench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>create_threads.exe</Arguments>
+    <Description>Test: Create Threads</Description>
+    <Scale>us Per Event</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-11-24 18:15</Identifier>
+        <Value>45.53</Value>
+        <RawString>46.150684:46.069622:44.360161</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lm"},"test-run-times":"5.02:5.01:5.01"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/osbench-1.0.1</Identifier>
+    <Title>OSBench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>launch_programs.exe</Arguments>
+    <Description>Test: Launch Programs</Description>
+    <Scale>us Per Event</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-11-24 18:15</Identifier>
+        <Value>81.79</Value>
+        <RawString>82.221031:82.211494:80.95026</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lm"},"test-run-times":"5.03:5.01:5.01"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/osbench-1.0.1</Identifier>
+    <Title>OSBench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>create_processes.exe</Arguments>
+    <Description>Test: Create Processes</Description>
+    <Scale>us Per Event</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-11-24 18:15</Identifier>
+        <Value>57.55</Value>
+        <RawString>49.409866:60.579777:57.361126:57.599545:61.440468:54.249763:59.871674:55.730343:63.929558:59.421062:55.251122:55.73988</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lm"},"test-run-times":"5.05:5.01:5.01:5.01:5.01:5.01:5.01:5.01:5.01:5.01:5.01:5.01"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/osbench-1.0.1</Identifier>
+    <Title>OSBench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>mem_alloc.exe</Arguments>
+    <Description>Test: Memory Allocations</Description>
+    <Scale>Ns Per Event</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-11-24 18:15</Identifier>
+        <Value>154.47</Value>
+        <RawString>153.180122:155.304909:154.915094</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lm"},"test-run-times":"5.16:5.04:5.04"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

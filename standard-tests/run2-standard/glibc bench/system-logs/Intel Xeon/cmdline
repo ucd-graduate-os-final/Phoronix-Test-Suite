@@ -1,0 +1,1 @@
+BOOT_IMAGE=/boot/vmlinuz-4.15.0-1024-gcp root=UUID=21b294f1-25bd-4265-9c4e-d6e4aeb57e97 ro scsi_mod.use_blk_mq=Y console=ttyS0

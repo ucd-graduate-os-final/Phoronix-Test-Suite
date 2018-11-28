@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.2.0-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>2018-11-24-2041</Title>
+    <LastModified>2018-11-24 20:44:38</LastModified>
+    <TestClient>Phoronix Test Suite v8.2.0 (Rakkestad)</TestClient>
+    <Description>KVM testing on Ubuntu 18.04 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>2018-11-24 20:41</Identifier>
+    <Hardware>Processor: Intel Xeon @ 2.30GHz (4 Cores / 8 Threads), Motherboard: Google Compute Engine, Chipset: Intel 440FX- 82441FX PMC, Memory: 30720MB, Disk: 54GB PersistentDisk, Network: Red Hat Virtio device</Hardware>
+    <Software>OS: Ubuntu 18.04, Kernel: 4.15.0-1024-gcp (x86_64), Compiler: GCC 7.3.0, File-System: ext4, System Layer: KVM</Software>
+    <User>historybuffjb</User>
+    <TimeStamp>2018-11-24 20:41:45</TimeStamp>
+    <TestClientVersion>8.2.0</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=x86_64-linux-gnu --disable-vtable-verify --disable-werror --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-gnu-unique-object --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --enable-libmpx --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-multilib --enable-nls --enable-objc-gc=auto --enable-offload-targets=nvptx-none --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --program-prefix=x86_64-linux-gnu- --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-default-libstdcxx-abi=new --with-gcc-major-version-only --with-multilib-list=m32,m64,mx32 --with-target-system-zlib --with-tune=generic --without-cuda-driver -v","security":"KPTI + __user pointer sanitization + Full generic retpoline IBPB IBRS_FW + SSB disabled via prctl and seccomp + PTE Inversion"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/sysbench-1.0.0</Identifier>
+    <Title>Sysbench</Title>
+    <AppVersion>2018-07-28</AppVersion>
+    <Arguments>memory run</Arguments>
+    <Description>Test: Memory</Description>
+    <Scale>Events Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-11-24 20:41</Identifier>
+        <Value>8131422.76</Value>
+        <RawString>8534718.8791:7363277.8992:8181816.7037:8445498.7016:8438382.1965:7985688.8291:8296624.958:8076539.0954:8004459.8542:8163776.0339:8141438.4011:7944851.5316</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-pthread -O3 -funroll-loops -ggdb3 -march=haswell -rdynamic -ldl -laio -lm"},"test-run-times":"10.53:10.01:10.01:10.01:10.01:10.01:10.01:10.01:10.01:10.01:10.01:10.01"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/sysbench-1.0.0</Identifier>
+    <Title>Sysbench</Title>
+    <AppVersion>2018-07-28</AppVersion>
+    <Arguments>cpu run</Arguments>
+    <Description>Test: CPU</Description>
+    <Scale>Events Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-11-24 20:41</Identifier>
+        <Value>5580.64</Value>
+        <RawString>5609.3508:5586.7267:5545.8353</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-pthread -O3 -funroll-loops -ggdb3 -march=haswell -rdynamic -ldl -laio -lm"},"test-run-times":"10.02:10.01:10.01"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

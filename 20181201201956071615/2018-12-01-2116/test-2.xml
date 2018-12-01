@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.2.1 (Khanino)-->
+<?xml-stylesheet type="text/xsl" href="pts-results-viewer.xsl"?>
+<PhoronixTestSuite>
+  <Result>
+    <Identifier>pts/hpcg-1.1.1</Identifier>
+    <Title>High Performance Conjugate Gradient</Title>
+    <AppVersion>3.0</AppVersion>
+    <Arguments></Arguments>
+    <Description>Phoronix Test Suite v5.2.1</Description>
+    <Scale>GFLOP/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>QEMU Virtual 2.5</Identifier>
+        <Value>0.57</Value>
+        <RawString>0.554818:0.575453:0.576516</RawString>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

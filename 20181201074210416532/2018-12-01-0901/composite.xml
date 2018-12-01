@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.2.1 (Khanino)-->
+<?xml-stylesheet type="text/xsl" href="pts-results-viewer.xsl"?>
+<PhoronixTestSuite>
+  <Generated>
+    <Title>2018-12-01-0901</Title>
+    <LastModified>2018-12-01 09:01:10</LastModified>
+    <TestClient>Phoronix Test Suite v5.2.1 (Khanino)</TestClient>
+    <Description>QEMU testing on Ubuntu 16.04 via the Phoronix Test Suite.</Description>
+    <PreSetEnvironmentVariables></PreSetEnvironmentVariables>
+  </Generated>
+  <System>
+    <Identifier>QEMU Virtual 2.5</Identifier>
+    <Hardware>Processor: 8 x QEMU Virtual 2.5+ @ 2.20GHz (8 Cores), Motherboard: QEMU Standard PC (i440FX + PIIX 1996), Chipset: Intel 440FX- 82441FX PMC, Memory: 16384 MB + 12227 MB RAM, Disk: 49GB, Network: Red Hat Virtio device</Hardware>
+    <Software>OS: Ubuntu 16.04, Kernel: 4.4.0-139-generic (x86_64), Compiler: GCC 5.4.0 20160609, File-System: ext4, System Layer: QEMU</Software>
+    <User>root</User>
+    <TimeStamp>2018-12-01 09:01:10</TimeStamp>
+    <TestClientVersion>5.2.1</TestClientVersion>
+    <Notes></Notes>
+  </System>
+  <Result>
+    <Identifier>pts/namd-1.0.0</Identifier>
+    <Title>NAMD</Title>
+    <AppVersion>2.13b1</AppVersion>
+    <Arguments></Arguments>
+    <Description>ATPase Simulation - 327,506 Atoms</Description>
+    <Scale>days/ns</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>QEMU Virtual 2.5</Identifier>
+        <Value>6.84650</Value>
+        <RawString>6.83216:6.85238:6.85495</RawString>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

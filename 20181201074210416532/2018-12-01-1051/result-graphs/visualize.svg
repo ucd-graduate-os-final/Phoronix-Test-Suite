@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Phoronix Test Suite v5.2.1 (Khanino) [ http://www.phoronix-test-suite.com/ ]-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" font-family="sans-serif" viewbox="0 0 1000 310" width="1000" height="310" preserveAspectRatio="xMinYMin meet">
+  <rect x="1" y="1" width="998" height="309" fill="#FEFEFE" stroke="#757575" stroke-width="1"/>
+  <rect x="30" y="58.333333333333" width="10" height="10" fill="#232C16" stroke="#757575" stroke-width="1"/>
+  <text x="43" y="67.333333333333" font-size="9" fill="#232C16" text-anchor="start">2018-12-01 10:51</text>
+  <rect x="139" y="58.333333333333" width="10" height="10" fill="#F13A13" stroke="#757575" stroke-width="1"/>
+  <text x="152" y="67.333333333333" font-size="9" fill="#F13A13" text-anchor="start">QEMU Virtual 2.5</text>
+  <rect x="30" y="86.333333333333" width="960" height="120" fill="#BABABA" stroke="#757575" stroke-width="1"/>
+  <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
+    <text x="988" y="98.333333333333" font-size="10" fill="#065695" text-anchor="end" xlink:show="new">PHORONIX-TEST-SUITE.COM</text>
+  </a>
+  <line x1="41" y1="187" x2="990" y2="187" stroke="#949494" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="30" y1="187" x2="990" y2="187" stroke="#757575" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="26" y1="187" x2="34" y2="187" stroke="#757575" stroke-width="1"/>
+  <line x1="41" y1="167" x2="990" y2="167" stroke="#949494" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="30" y1="167" x2="990" y2="167" stroke="#757575" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="26" y1="167" x2="34" y2="167" stroke="#757575" stroke-width="1"/>
+  <line x1="41" y1="147" x2="990" y2="147" stroke="#949494" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="30" y1="147" x2="990" y2="147" stroke="#757575" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="26" y1="147" x2="34" y2="147" stroke="#757575" stroke-width="1"/>
+  <line x1="41" y1="127" x2="990" y2="127" stroke="#949494" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="30" y1="127" x2="990" y2="127" stroke="#757575" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="26" y1="127" x2="34" y2="127" stroke="#757575" stroke-width="1"/>
+  <line x1="41" y1="107" x2="990" y2="107" stroke="#949494" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="30" y1="107" x2="990" y2="107" stroke="#757575" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="26" y1="107" x2="34" y2="107" stroke="#757575" stroke-width="1"/>
+  <text x="78" y="209" font-size="6.5" fill="#231f20" text-anchor="middle" dominant-baseline="text-before-edge">Systemd Total Boot Time</text>
+  <rect x="39.6" y="87" width="38" height="119" fill="#232C16" stroke="#949494" stroke-width="1"/>
+  <text x="174" y="209" font-size="6.5" fill="#231f20" text-anchor="middle" dominant-baseline="text-before-edge">Systemd Total Boot Time</text>
+  <rect x="135.6" y="87" width="38" height="119" fill="#232C16" stroke="#949494" stroke-width="1"/>
+  <text x="270" y="209" font-size="6.5" fill="#231f20" text-anchor="middle" dominant-baseline="text-before-edge">Systemd Total Boot Time</text>
+  <rect x="231.6" y="87" width="38" height="119" fill="#232C16" stroke="#949494" stroke-width="1"/>
+  <text x="366" y="209" font-size="6.5" fill="#231f20" text-anchor="middle" dominant-baseline="text-before-edge">Tachyon</text>
+  <rect x="327.6" y="87" width="38" height="119" fill="#F13A13" stroke="#949494" stroke-width="1"/>
+  <text x="495" y="19" font-size="17" fill="#231f20" text-anchor="middle" xlink:show="new">2018-12-01-1051</text>
+  <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
+    <text x="990" y="83.333333333333" font-size="7" fill="#949494" text-anchor="end" xlink:show="new">Phoronix Test Suite 5.2.1</text>
+  </a>
+</svg>

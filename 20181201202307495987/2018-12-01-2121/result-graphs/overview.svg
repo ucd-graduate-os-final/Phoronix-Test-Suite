@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Phoronix Test Suite v5.2.1 (Khanino) [ http://www.phoronix-test-suite.com/ ]-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" font-family="sans-serif" viewbox="0 0 375 217" width="375" height="217" preserveAspectRatio="xMinYMin meet">
+  <rect x="1" y="1" width="373" height="216" fill="#FEFEFE" stroke="#757575" stroke-width="1"/>
+  <rect x="1" y="1" width="374" height="216" fill="#FEFEFE" stroke="#757575" stroke-width="1"/>
+  <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
+    <image xlink:href="data:image/png;base64,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" x="52" y="48" width="160" height="83"/>
+  </a>
+  <line x1="264" y1="113" x2="301" y2="113" stroke="#BABABA" stroke-width="176" stroke-dasharray="37,37"/>
+  <rect x="301" y="25" width="74" height="176" fill="#949494"/>
+  <line x1="151" y1="153" x2="151" y2="201" stroke="#949494" stroke-width="301" stroke-dasharray="16,16"/>
+  <line x1="264" y1="113" x2="338" y2="113" stroke="#757575" stroke-width="176" stroke-dasharray="1,36"/>
+  <rect x="1" y="1" width="373" height="25" fill="#231f20"/>
+  <text x="5" y="19" font-size="17" fill="#FEFEFE" text-anchor="start">2018-12-01-2121</text>
+  <line x1="1" y1="25" x2="374" y2="25" stroke="#757575" stroke-width="1"/>
+  <a xlink:href="http://openbenchmarking.org/test/pts/hpcg-1.1.1" xlink:show="new">
+    <text x="262" y="165" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">High Performance Conjugate Gradient</text>
+  </a>
+  <text x="262" y="181" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Standard Error</text>
+  <text x="262" y="197" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Standard Deviation</text>
+  <text x="285.5" y="149" font-size="10" fill="#065695" font-weight="bold" text-anchor="end" transform="rotate(90 285.5 149)">QEMU Virtual 2.5</text>
+  <text x="282.5" y="166" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 4.51%;  STD Error: 0.01">0.51</text>
+  <text x="282.5" y="182" font-size="10" fill="#065695" text-anchor="middle" xlink:title="">0.01</text>
+  <text x="282.5" y="198" font-size="10" fill="#065695" text-anchor="middle" xlink:title="">4.51%</text>
+  <line x1="151" y1="153" x2="151" y2="201" stroke="#949494" stroke-width="301" stroke-dasharray="1,15"/>
+  <rect x="0" y="201" width="375" height="16" fill="#231f20"/>
+  <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
+    <text x="373" y="214" font-size="10" fill="#FFFFFF" text-anchor="end" xlink:show="new">PHORONIX-TEST-SUITE.COM</text>
+  </a>
+</svg>

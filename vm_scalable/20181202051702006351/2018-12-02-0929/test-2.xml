@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.2.1 (Khanino)-->
+<?xml-stylesheet type="text/xsl" href="pts-results-viewer.xsl"?>
+<PhoronixTestSuite>
+  <Result>
+    <Identifier>pts/sample-program-1.1.1</Identifier>
+    <Title>Sample Pi Program</Title>
+    <AppVersion></AppVersion>
+    <Arguments></Arguments>
+    <Description>Phoronix Test Suite v5.2.1</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>QEMU Virtual 2.5</Identifier>
+        <Value>23.32</Value>
+        <RawString>23.12538599968:22.785464048386:24.048687934875</RawString>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

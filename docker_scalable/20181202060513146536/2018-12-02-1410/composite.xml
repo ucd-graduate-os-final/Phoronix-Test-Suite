@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.0.1-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>2018-12-02-1410</Title>
+    <LastModified>2018-12-02 14:12:08</LastModified>
+    <TestClient>Phoronix Test Suite v8.0.1 (Aremark)</TestClient>
+    <Description>KVM testing on Clear Linux OS 24870 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>Intel Xeon</Identifier>
+    <Hardware>Processor: Intel Xeon @ 2.20GHz (4 Cores / 8 Threads), Motherboard: Google Compute Engine, Memory: 30720MB, Disk: 1074GB PersistentDisk</Hardware>
+    <Software>OS: Clear Linux OS 24870, Kernel: 4.15.0-1024-gcp (x86_64), Compiler: GCC 8.2.0 + Clang 6.0.1 + LLVM 6.0.1, File-System: aufs, System Layer: KVM</Software>
+    <User>root</User>
+    <TimeStamp>2018-12-02 14:10:22</TimeStamp>
+    <TestClientVersion>8.0.1</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=x86_64-generic-linux --disable-libmpx --disable-libunwind-exceptions --disable-multiarch --disable-vtable-verify --enable-__cxa_atexit --enable-bootstrap --enable-clocale=gnu --enable-gnu-indirect-function --enable-languages=c,c++,fortran,go --enable-ld=default --enable-libstdcxx-pch --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --exec-prefix=\/usr --includedir=\/usr\/include --target=x86_64-generic-linux --with-arch=westmere --with-glibc-version=2.19 --with-gnu-ld --with-isl --with-ppl=yes --with-tune=haswell","security":"KPTI + __user pointer sanitization + Full generic retpoline Protection"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/polybench-c-1.2.0</Identifier>
+    <Title>PolyBench-C</Title>
+    <AppVersion>4.2</AppVersion>
+    <Arguments>covariance</Arguments>
+    <Description>Test: Covariance Computation</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Xeon</Identifier>
+        <Value>4.26</Value>
+        <RawString>5.1505699157715:4.0377190113068:4.1408700942993:4.0596749782562:3.9867670536041:4.1921529769897</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -pipe -fexceptions -fstack-protector -m64 -ffat-lto-objects -fno-signed-zeros -fno-trapping-math -fassociative-math -march=native"},"test-run-times":"5.15:4.04:4.14:4.06:3.99:4.19"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/polybench-c-1.2.0</Identifier>
+    <Title>PolyBench-C</Title>
+    <AppVersion>4.2</AppVersion>
+    <Arguments>correlation</Arguments>
+    <Description>Test: Correlation Computation</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Xeon</Identifier>
+        <Value>4.12</Value>
+        <RawString>4.1800718307495:3.9859418869019:4.1971139907837</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -pipe -fexceptions -fstack-protector -m64 -ffat-lto-objects -fno-signed-zeros -fno-trapping-math -fassociative-math -march=native"},"test-run-times":"4.18:3.99:4.20"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/polybench-c-1.2.0</Identifier>
+    <Title>PolyBench-C</Title>
+    <AppVersion>4.2</AppVersion>
+    <Arguments>3mm</Arguments>
+    <Description>Test: 3 Matrix Multiplications</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Xeon</Identifier>
+        <Value>13.77</Value>
+        <RawString>13.971098899841:13.632589101791:13.701050043106</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -pipe -fexceptions -fstack-protector -m64 -ffat-lto-objects -fno-signed-zeros -fno-trapping-math -fassociative-math -march=native"},"test-run-times":"13.97:13.63:13.70"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

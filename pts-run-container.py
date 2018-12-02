@@ -28,7 +28,7 @@ class PhoronixTestSuite:
             os.system('phoronix-test-suite batch-run {}'.format(test))
         print("All tests completed. ")
         self._move_folder_contents(self._test_suite_path, os.path.join(self._git_folder, self._magic))
-        self._push_to_git()
+        #self._push_to_git()
         #self._stop_vm_instance()
 
     def install_tests(self):

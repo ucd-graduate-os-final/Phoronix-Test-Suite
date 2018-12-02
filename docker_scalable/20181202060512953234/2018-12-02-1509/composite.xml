@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.0.1-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>2018-12-02-1509</Title>
+    <LastModified>2018-12-02 15:12:41</LastModified>
+    <TestClient>Phoronix Test Suite v8.0.1 (Aremark)</TestClient>
+    <Description>KVM testing on Clear Linux OS 24870 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>2018-12-02 15:09</Identifier>
+    <Hardware>Processor: Intel Xeon @ 2.20GHz (4 Cores / 8 Threads), Motherboard: Google Compute Engine, Memory: 30720MB, Disk: 1074GB PersistentDisk</Hardware>
+    <Software>OS: Clear Linux OS 24870, Kernel: 4.15.0-1024-gcp (x86_64), Compiler: GCC 8.2.0 + Clang 6.0.1 + LLVM 6.0.1, File-System: aufs, System Layer: KVM</Software>
+    <User>root</User>
+    <TimeStamp>2018-12-02 15:09:35</TimeStamp>
+    <TestClientVersion>8.0.1</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=x86_64-generic-linux --disable-libmpx --disable-libunwind-exceptions --disable-multiarch --disable-vtable-verify --enable-__cxa_atexit --enable-bootstrap --enable-clocale=gnu --enable-gnu-indirect-function --enable-languages=c,c++,fortran,go --enable-ld=default --enable-libstdcxx-pch --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --exec-prefix=\/usr --includedir=\/usr\/include --target=x86_64-generic-linux --with-arch=westmere --with-glibc-version=2.19 --with-gnu-ld --with-isl --with-ppl=yes --with-tune=haswell","security":"KPTI + __user pointer sanitization + Full generic retpoline Protection"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/osbench-1.0.1</Identifier>
+    <Title>OSBench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>create_files.exe target</Arguments>
+    <Description>Test: Create Files</Description>
+    <Scale>us Per Event</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:09</Identifier>
+        <Value>86.82</Value>
+        <RawString>98.122473:91.19578:84.525786:79.736655:84.476118:82.892986</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -pipe -fexceptions -fstack-protector -m64 -ffat-lto-objects -fno-signed-zeros -fno-trapping-math -fassociative-math -lm"},"test-run-times":"7.57:5.98:5.55:5.24:5.55:5.44"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/osbench-1.0.1</Identifier>
+    <Title>OSBench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>create_threads.exe</Arguments>
+    <Description>Test: Create Threads</Description>
+    <Scale>us Per Event</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:09</Identifier>
+        <Value>137.98</Value>
+        <RawString>86.219311:86.140633:124.111176:282.659531:123.310089:125.432014</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -pipe -fexceptions -fstack-protector -m64 -ffat-lto-objects -fno-signed-zeros -fno-trapping-math -fassociative-math -lm"},"test-run-times":"5.05:5.23:5.19:5.06:5.04:5.09"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/osbench-1.0.1</Identifier>
+    <Title>OSBench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>launch_programs.exe</Arguments>
+    <Description>Test: Launch Programs</Description>
+    <Scale>us Per Event</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:09</Identifier>
+        <Value>1325.39</Value>
+        <RawString>1214.86187:1372.640133:1447.410583:1529.350281:1167.709827:1220.369339</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -pipe -fexceptions -fstack-protector -m64 -ffat-lto-objects -fno-signed-zeros -fno-trapping-math -fassociative-math -lm"},"test-run-times":"5.10:5.10:5.04:5.06:5.17:5.01"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/osbench-1.0.1</Identifier>
+    <Title>OSBench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>create_processes.exe</Arguments>
+    <Description>Test: Create Processes</Description>
+    <Scale>us Per Event</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:09</Identifier>
+        <Value>84.64</Value>
+        <RawString>87.001324:81.322193:86.240768:83.990097</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -pipe -fexceptions -fstack-protector -m64 -ffat-lto-objects -fno-signed-zeros -fno-trapping-math -fassociative-math -lm"},"test-run-times":"5.02:5.02:5.03:5.02"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/osbench-1.0.1</Identifier>
+    <Title>OSBench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>mem_alloc.exe</Arguments>
+    <Description>Test: Memory Allocations</Description>
+    <Scale>Ns Per Event</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:09</Identifier>
+        <Value>164.99</Value>
+        <RawString>167.232037:163.964033:163.762093</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -pipe -fexceptions -fstack-protector -m64 -ffat-lto-objects -fno-signed-zeros -fno-trapping-math -fassociative-math -lm"},"test-run-times":"5.16:5.25:5.04"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

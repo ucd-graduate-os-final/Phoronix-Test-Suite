@@ -1,0 +1,776 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.0.1-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>2018-12-02-1551</Title>
+    <LastModified>2018-12-02 17:43:25</LastModified>
+    <TestClient>Phoronix Test Suite v8.0.1 (Aremark)</TestClient>
+    <Description>KVM testing on Clear Linux OS 24870 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>2018-12-02 15:51</Identifier>
+    <Hardware>Processor: Intel Xeon @ 2.20GHz (4 Cores / 8 Threads), Motherboard: Google Compute Engine, Memory: 30720MB, Disk: 1074GB PersistentDisk</Hardware>
+    <Software>OS: Clear Linux OS 24870, Kernel: 4.15.0-1024-gcp (x86_64), Compiler: GCC 8.2.0 + Clang 6.0.1 + LLVM 6.0.1, File-System: aufs, System Layer: KVM</Software>
+    <User>root</User>
+    <TimeStamp>2018-12-02 15:51:51</TimeStamp>
+    <TestClientVersion>8.0.1</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=x86_64-generic-linux --disable-libmpx --disable-libunwind-exceptions --disable-multiarch --disable-vtable-verify --enable-__cxa_atexit --enable-bootstrap --enable-clocale=gnu --enable-gnu-indirect-function --enable-languages=c,c++,fortran,go --enable-ld=default --enable-libstdcxx-pch --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --exec-prefix=\/usr --includedir=\/usr\/include --target=x86_64-generic-linux --with-arch=westmere --with-glibc-version=2.19 --with-gnu-ld --with-isl --with-ppl=yes --with-tune=haswell","security":"KPTI + __user pointer sanitization + Full generic retpoline Protection"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 2 -t 2</Arguments>
+    <Description>Message Threads: 2 - Workers Per Message Thread: 2</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>29483</Value>
+        <RawString>31456:30048:28064:25696:30560:31072</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"31.03:30.09:30.06:30.07:30.07:30.04"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 2 -t 4</Arguments>
+    <Description>Message Threads: 2 - Workers Per Message Thread: 4</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>46421</Value>
+        <RawString>40896:44608:44992:48064:52032:47936</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.06:30.05:30.06:30.06:30.08:30.06"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 2 -t 6</Arguments>
+    <Description>Message Threads: 2 - Workers Per Message Thread: 6</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>60053</Value>
+        <RawString>56512:59968:63936:59968:59968:59968</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.07:30.06:30.07:30.06:30.07:30.05"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 2 -t 8</Arguments>
+    <Description>Message Threads: 2 - Workers Per Message Thread: 8</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>76373</Value>
+        <RawString>80000:88704:72064:67968:80000:69504</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.10:30.09:30.07:30.05:30.05:30.06"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 4 -t 2</Arguments>
+    <Description>Message Threads: 4 - Workers Per Message Thread: 2</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>40491</Value>
+        <RawString>40000:44736:37568:36032:40000:44608</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.08:30.14:30.12:30.13:30.09:30.07"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 4 -t 4</Arguments>
+    <Description>Message Threads: 4 - Workers Per Message Thread: 4</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>71104</Value>
+        <RawString>59840:66944:75904:92032:75904:56000</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.07:30.08:30.07:30.07:30.14:30.11"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 4 -t 6</Arguments>
+    <Description>Message Threads: 4 - Workers Per Message Thread: 6</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>81877</Value>
+        <RawString>103296:84096:75904:80000:75904:72064</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.07:30.08:30.14:30.11:30.14:30.08"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 4 -t 8</Arguments>
+    <Description>Message Threads: 4 - Workers Per Message Thread: 8</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>120619</Value>
+        <RawString>119936:121984:119936</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.05:30.07:30.07"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 6 -t 2</Arguments>
+    <Description>Message Threads: 6 - Workers Per Message Thread: 2</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>46848</Value>
+        <RawString>43968:48064:45248:47168:48064:48576</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.17:30.16:30.12:30.16:30.08:30.11"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 6 -t 4</Arguments>
+    <Description>Message Threads: 6 - Workers Per Message Thread: 4</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>77397</Value>
+        <RawString>72064:94080:74112:67968:73600:82560</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.19:30.18:30.08:30.08:30.14:30.05"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 6 -t 6</Arguments>
+    <Description>Message Threads: 6 - Workers Per Message Thread: 6</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>130714</Value>
+        <RawString>124800:132864:135936:131840:128128</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.18:30.07:30.19:30.17:30.08"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 6 -t 8</Arguments>
+    <Description>Message Threads: 6 - Workers Per Message Thread: 8</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>161195</Value>
+        <RawString>161024:160512:162048</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.08:30.07:30.06"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 8 -t 2</Arguments>
+    <Description>Message Threads: 8 - Workers Per Message Thread: 2</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>51872</Value>
+        <RawString>52800:53312:49344:52032</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.25:30.14:30.18:30.06"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 8 -t 4</Arguments>
+    <Description>Message Threads: 8 - Workers Per Message Thread: 4</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>111061</Value>
+        <RawString>114048:107904:111232</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.20:30.25:30.26"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 8 -t 6</Arguments>
+    <Description>Message Threads: 8 - Workers Per Message Thread: 6</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>164693</Value>
+        <RawString>177920:152832:155904:150272:167168:184064</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.18:30.11:30.24:30.21:30.08:30.26"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 8 -t 8</Arguments>
+    <Description>Message Threads: 8 - Workers Per Message Thread: 8</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>207957</Value>
+        <RawString>212224:208128:203520</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.18:30.25:30.11"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 16 -t 2</Arguments>
+    <Description>Message Threads: 16 - Workers Per Message Thread: 2</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>102955</Value>
+        <RawString>93056:119936:104576:92032:100224:107904</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.34:30.62:30.56:30.51:30.46:30.64"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 16 -t 4</Arguments>
+    <Description>Message Threads: 16 - Workers Per Message Thread: 4</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>203349</Value>
+        <RawString>206080:208128:195840</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.81:30.81:30.10"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 16 -t 6</Arguments>
+    <Description>Message Threads: 16 - Workers Per Message Thread: 6</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>330240</Value>
+        <RawString>332288:324096:334336</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.23:30.33:30.20"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 16 -t 8</Arguments>
+    <Description>Message Threads: 16 - Workers Per Message Thread: 8</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>491008</Value>
+        <RawString>479744:496128:497152</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.41:30.11:30.31"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 2 -t 16</Arguments>
+    <Description>Message Threads: 2 - Workers Per Message Thread: 16</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>125547</Value>
+        <RawString>116096:127360:121984:131840:128128:127872</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.10:30.09:30.07:30.09:30.11:30.09"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 2 -t 24</Arguments>
+    <Description>Message Threads: 2 - Workers Per Message Thread: 24</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>174165</Value>
+        <RawString>173824:171776:176896</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.07:30.11:30.09"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 2 -t 32</Arguments>
+    <Description>Message Threads: 2 - Workers Per Message Thread: 32</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>210005</Value>
+        <RawString>201984:212224:215808</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.05:30.09:30.08"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 32 -t 2</Arguments>
+    <Description>Message Threads: 32 - Workers Per Message Thread: 2</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>193621</Value>
+        <RawString>215808:175872:164096:191744:206080:208128</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.49:30.41:30.12:30.72:30.55:30.95"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 32 -t 4</Arguments>
+    <Description>Message Threads: 32 - Workers Per Message Thread: 4</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>297813</Value>
+        <RawString>303616:297472:292352</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.28:30.22:32.34"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 32 -t 6</Arguments>
+    <Description>Message Threads: 32 - Workers Per Message Thread: 6</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>482816</Value>
+        <RawString>492032:492032:464384</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.11:30.10:32.67"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 32 -t 8</Arguments>
+    <Description>Message Threads: 32 - Workers Per Message Thread: 8</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>614059</Value>
+        <RawString>656384:592896:619520:623616:590848:601088</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.40:30.28:30.56:30.08:30.18:30.82"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 4 -t 16</Arguments>
+    <Description>Message Threads: 4 - Workers Per Message Thread: 16</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>171605</Value>
+        <RawString>169216:164096:179968:182016:166144:168192</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.07:30.07:30.08:30.07:30.10:30.09"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 4 -t 24</Arguments>
+    <Description>Message Threads: 4 - Workers Per Message Thread: 24</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>228352</Value>
+        <RawString>239872:234240:219904:219904:228096:228096</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.10:30.08:30.07:30.08:30.08:30.09"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 4 -t 32</Arguments>
+    <Description>Message Threads: 4 - Workers Per Message Thread: 32</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>315563</Value>
+        <RawString>322048:321024:303616</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.08:30.07:30.08"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 6 -t 16</Arguments>
+    <Description>Message Threads: 6 - Workers Per Message Thread: 16</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>229291</Value>
+        <RawString>243968:232192:219904:235776:224000:219904</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.09:30.08:30.08:30.10:30.09:30.06"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 6 -t 24</Arguments>
+    <Description>Message Threads: 6 - Workers Per Message Thread: 24</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>348331</Value>
+        <RawString>351744:336384:356864</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.09:30.09:30.08"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 6 -t 32</Arguments>
+    <Description>Message Threads: 6 - Workers Per Message Thread: 32</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>464896</Value>
+        <RawString>507392:475648:449024:449024:443904:464384</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.08:30.14:30.09:30.09:30.08:30.07"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 8 -t 16</Arguments>
+    <Description>Message Threads: 8 - Workers Per Message Thread: 16</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>291328</Value>
+        <RawString>292352:302592:267776:296448:292352:296448</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.22:30.11:30.10:30.11:30.15:30.10"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 8 -t 24</Arguments>
+    <Description>Message Threads: 8 - Workers Per Message Thread: 24</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>467456</Value>
+        <RawString>501248:443904:466432:512512:416256:464384</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.11:30.10:30.08:30.09:30.13:30.21"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 8 -t 32</Arguments>
+    <Description>Message Threads: 8 - Workers Per Message Thread: 32</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>622251</Value>
+        <RawString>625664:609280:631808</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.08:30.09:30.08"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 16 -t 16</Arguments>
+    <Description>Message Threads: 16 - Workers Per Message Thread: 16</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>613376</Value>
+        <RawString>635904:617472:584704:615424</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.10:30.08:30.30:30.11"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 16 -t 24</Arguments>
+    <Description>Message Threads: 16 - Workers Per Message Thread: 24</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>930133</Value>
+        <RawString>812032:904192:1020928:990208:924672:928768</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.10:30.10:30.11:30.10:30.10:30.13"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 16 -t 32</Arguments>
+    <Description>Message Threads: 16 - Workers Per Message Thread: 32</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>1288875</Value>
+        <RawString>1144832:1411072:1165312:1378304:1288192:1345536</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.34:30.11:30.08:30.09:30.10:30.12"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 32 -t 16</Arguments>
+    <Description>Message Threads: 32 - Workers Per Message Thread: 16</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>1226069</Value>
+        <RawString>1267712:1325056:1169408:1210368:1079296:1304576</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.93:30.10:30.15:30.46:30.41:30.08"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 32 -t 24</Arguments>
+    <Description>Message Threads: 32 - Workers Per Message Thread: 24</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>1570645</Value>
+        <RawString>1800192:1779712:1976320:1808384:1079296:979968</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.14:30.51:30.61:30.52:30.26:30.45"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/schbench-1.0.0</Identifier>
+    <Title>Schbench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>-m 32 -t 32</Arguments>
+    <Description>Message Threads: 32 - Workers Per Message Thread: 32</Description>
+    <Scale>usec, 99.9th Latency Percentile</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>2018-12-02 15:51</Identifier>
+        <Value>2719744</Value>
+        <RawString>2789376:2953216:3010560:2830336:2183168:2551808</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lpthread"},"test-run-times":"30.65:30.14:30.71:30.15:30.94:30.56"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

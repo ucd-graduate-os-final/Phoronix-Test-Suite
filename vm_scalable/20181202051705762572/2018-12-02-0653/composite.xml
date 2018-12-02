@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.2.1 (Khanino)-->
+<?xml-stylesheet type="text/xsl" href="pts-results-viewer.xsl"?>
+<PhoronixTestSuite>
+  <Generated>
+    <Title>2018-12-02-0653</Title>
+    <LastModified>2018-12-02 06:53:02</LastModified>
+    <TestClient>Phoronix Test Suite v5.2.1 (Khanino)</TestClient>
+    <Description>QEMU testing on Ubuntu 16.04 via the Phoronix Test Suite.</Description>
+    <PreSetEnvironmentVariables></PreSetEnvironmentVariables>
+  </Generated>
+  <System>
+    <Identifier>QEMU Virtual 2.5</Identifier>
+    <Hardware>Processor: 2 x QEMU Virtual 2.5+ @ 2.00GHz (2 Cores), Motherboard: QEMU Standard PC (i440FX + PIIX 1996), Chipset: Intel 440FX- 82441FX PMC, Memory: 1 x 6676 MB RAM QEMU, Disk: 49GB, Network: Red Hat Virtio device</Hardware>
+    <Software>OS: Ubuntu 16.04, Kernel: 4.4.0-139-generic (x86_64), Compiler: GCC 5.4.0 20160609, File-System: ext4, System Layer: QEMU</Software>
+    <User>root</User>
+    <TimeStamp>2018-12-02 06:53:03</TimeStamp>
+    <TestClientVersion>5.2.1</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=x86_64-linux-gnu --disable-browser-plugin --disable-vtable-verify --disable-werror --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gtk-cairo --enable-java-awt=gtk --enable-java-home --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --enable-libmpx --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-multilib --enable-nls --enable-objc-gc --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-arch-directory=amd64 --with-default-libstdcxx-abi=new --with-multilib-list=m32,m64,mx32 --with-tune=generic -v"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/hpcg-1.1.1</Identifier>
+    <Title>High Performance Conjugate Gradient</Title>
+    <AppVersion>3.0</AppVersion>
+    <Arguments></Arguments>
+    <Description>Phoronix Test Suite v5.2.1</Description>
+    <Scale>GFLOP/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>QEMU Virtual 2.5</Identifier>
+        <Value>0.52</Value>
+        <RawString>0.512073:0.512506:0.526145</RawString>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

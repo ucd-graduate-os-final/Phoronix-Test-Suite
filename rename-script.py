@@ -1,7 +1,7 @@
 import os
 import xmltodict
 path = '/Users/johnathanbecker/Dropbox/Documents/School Stuff/UC Denver New Degree/Fall 2018/Operating Systems/' \
-       'Phoronix-Test-Suite/docker-tests'
+       'Phoronix-Test-Suite/nested-vm-tests'
 tests = ['blogbench', 'c-ray', 'cachebench', 'dacapobench', 'dolfyn', 'glibc-bench',
                        'himeno', 'hmmer', 'hpcg', 'iperf', 'lammps', 'm-queens', 'mcperf',
                        'mrbayes', 'namd', 'netperf', 'osbench', 'pjdfstest', 'polybench-c',

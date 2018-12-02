@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v8.0.1-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>2018-12-02-1341</Title>
+    <LastModified>2018-12-02 15:18:13</LastModified>
+    <TestClient>Phoronix Test Suite v8.0.1 (Aremark)</TestClient>
+    <Description>KVM testing on Clear Linux OS 24870 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>Intel Xeon</Identifier>
+    <Hardware>Processor: Intel Xeon @ 2.20GHz (4 Cores / 8 Threads), Motherboard: Google Compute Engine, Memory: 30720MB, Disk: 1074GB PersistentDisk</Hardware>
+    <Software>OS: Clear Linux OS 24870, Kernel: 4.15.0-1024-gcp (x86_64), Compiler: GCC 8.2.0 + Clang 6.0.1 + LLVM 6.0.1, File-System: aufs, System Layer: KVM</Software>
+    <User>root</User>
+    <TimeStamp>2018-12-02 13:41:14</TimeStamp>
+    <TestClientVersion>8.0.1</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"security":"KPTI + __user pointer sanitization + Full generic retpoline Protection"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/namd-1.0.0</Identifier>
+    <Title>NAMD</Title>
+    <AppVersion>2.13b1</AppVersion>
+    <Arguments></Arguments>
+    <Description>ATPase Simulation - 327,506 Atoms</Description>
+    <Scale>days/ns</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>Intel Xeon</Identifier>
+        <Value>19.42320</Value>
+        <RawString>20.3057:20.5051:19.1525:21.6719:20.8166:14.0874</RawString>
+        <JSON>{"test-run-times":"1067.80:857.66:1042.79:989.35:1016.54:837.82"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

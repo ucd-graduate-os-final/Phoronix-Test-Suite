@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v5.2.1 (Khanino)-->
+<?xml-stylesheet type="text/xsl" href="pts-results-viewer.xsl"?>
+<PhoronixTestSuite>
+  <Generated>
+    <Title>2018-12-02-0928</Title>
+    <LastModified>2018-12-02 09:30:15</LastModified>
+    <TestClient>Phoronix Test Suite v5.2.1 (Khanino)</TestClient>
+    <Description>QEMU testing on Ubuntu 16.04 via the Phoronix Test Suite.</Description>
+    <PreSetEnvironmentVariables></PreSetEnvironmentVariables>
+  </Generated>
+  <System>
+    <Identifier>QEMU Virtual 2.5</Identifier>
+    <Hardware>Processor: 2 x QEMU Virtual 2.5+ @ 2.00GHz (2 Cores), Motherboard: QEMU Standard PC (i440FX + PIIX 1996), Chipset: Intel 440FX- 82441FX PMC, Memory: 1 x 6676 MB RAM QEMU, Disk: 49GB, Network: Red Hat Virtio device</Hardware>
+    <Software>OS: Ubuntu 16.04, Kernel: 4.4.0-139-generic (x86_64), Compiler: GCC 5.4.0 20160609, File-System: ext4, System Layer: QEMU</Software>
+    <User>root</User>
+    <TimeStamp>2018-12-02 09:28:51</TimeStamp>
+    <TestClientVersion>5.2.1</TestClientVersion>
+    <Notes></Notes>
+  </System>
+  <Result>
+    <Identifier>pts/psstop-1.0.0</Identifier>
+    <Title>PSSTOP Memory test</Title>
+    <AppVersion></AppVersion>
+    <Arguments></Arguments>
+    <Description>Phoronix Test Suite v5.2.1</Description>
+    <Scale>kb</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>QEMU Virtual 2.5</Identifier>
+        <Value>80164</Value>
+        <RawString>80164</RawString>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/sample-program-1.1.1</Identifier>
+    <Title>Sample Pi Program</Title>
+    <AppVersion></AppVersion>
+    <Arguments></Arguments>
+    <Description>Phoronix Test Suite v5.2.1</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>QEMU Virtual 2.5</Identifier>
+        <Value>25.31</Value>
+        <RawString>29.670881986618:23.353539943695:22.904469966888</RawString>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

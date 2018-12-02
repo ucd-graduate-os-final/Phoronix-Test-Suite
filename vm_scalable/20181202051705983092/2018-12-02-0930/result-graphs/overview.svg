@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Phoronix Test Suite v5.2.1 (Khanino) [ http://www.phoronix-test-suite.com/ ]-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" font-family="sans-serif" viewbox="0 0 188 841" width="188" height="841" preserveAspectRatio="xMinYMin meet">
+  <rect x="1" y="1" width="186" height="840" fill="#FEFEFE" stroke="#757575" stroke-width="1"/>
+  <rect x="1" y="1" width="187" height="840" fill="#FEFEFE" stroke="#757575" stroke-width="1"/>
+  <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAqCAQAAACOoRSBAAAAAXNSR0IArs4c6QAAAAlwSFlzAAAHSgAAB0oBjtiwKgAAAAd0SU1FB+ADHBITMN9rJfUAAAACYktHRAD/h4/MvwAABL1JREFUWMPtmH1oVWUcx7+fzbn03tymKy1xWm7DmTjb+cOsEEUwwtHSRF2RumtLehFjhlKJIIxyTCEVX9aLymKt3DDbRm4LdaRIpilUECUirLKSUP9pm9Pu6Y+dnZ17d8+951yFhHy+XO5znvN7fs/nefs9D0fymzaqU53q1F+6TdM2mZb+H4ChuaHyUHmoPPTK7Qr4ecjs0x3AO4B3AG8R4ChN03y9oBJNVeZNAObpRW3VbhfVaG4ygIU6J1OmwtbP1FnlJQH4gP60PbhprV/AoH6K4TQsUyeU5gtwdkK4JADz4jgN64bu8QyY4QnPJ+BYF6dhx//wGIBpERoqSWq0aoVlqlt/u6hLFX4AexxOL2mVJGmI1uuKDRnWpSjAWB3KlxxvZ/rdxZMpoIACpkTZbHY4fTbq3WoHypqoERysXOXY+Tf8h5ki0+hTs9MiPUGfFzsAEgMW2vkFNwHY6LSosF1udvFRa1s8n2CKc5Vtv/3kVgG2JgwbA40eiBjB0zoboR+VI+mqjd6sPI0ZpHQN8Qf4i+Xuqzjd/MGy6fQQZt6KG1z64M8rwztgj1X1gziADZZNr6dAfTFhDAzLVLlXwP4JqY4DWG/ZXJdUnRAwXV0JQ3VYpp72Bmh6ADxp2fwh6XW7xv1xamz1MIrXbhVgim1zSNIc+2lV3O2ZonQFlRmlDC1wRID5boDGa8Z1o9foNXq9AFbaNi87uhRWT5JXwNG2vw9dASusnJkYMN/RY0Wctqb2JonYv43abh7QecupsspGOhb6/qQA+9us8wO4KcbFqVX/OK4RA+ldB2KX1vvEO+NcMt4Bu3XZoSvqijrQJkU0ciziKmbqmrpkaqI9Ql2ucu7kND+A8WPWnEHj8E3MszhyCuPrbfcw4w/QVE7Mqdoy6MrgB7A13kniDbCv8ZVKdV1N9+poxELwDvhS/LM4FuAFtTt0SB/rVT0UefOImTJVpHJt0jbtUrZVtlvbXLVOMxVw3GYOl5llZpkZMiXDNLqNbqPbqDfeNMwisygCsOq/+Ja3wpFfkCAmVd+uHySjABGSSNIZLnl3Kx+ADKWDI6yQOO0ZqIBQVMlOjtPCcb6IW6+JIyx1PD/JbDf0AcBhfClxkky+lwj0mTNBkhghMUYilRGSRJZEUGIYowkyBJHK8P4GONc/F9xnecmXeIL1BCSJ5ZRJBOjzGySFLDKYwg6CEmmMcgNsk7gq8TvbOcqDjOMMIU5JHKCORwhRyxY2SlxmO0fIZQZVDOWCxNfY3eechJjKfmooZiStLCOFtTRQKElkc5FpEnfTJrGXCayklFIOM4PH2UM9jxIT8Ao7KLQaWM5i3mGWRCPj+IwMiZ8lid8si6WUMp1KRA43eHjApTWCu2injQZSOM8iiVmstdd5gFOsZDhNEjWMZwVLmMgOiQZa6GCn+xRL4juJMhZRwUKJEwQ4SIbEt5LERctiGUuYTqXEBt5ntaIBq8m3S95jHrNYF7EOf0W0SByzAXdK7CMrcjVet1TFXdRZVQ9JLGQe0MI+NkjUEERMoo0mHrMsnqGYaaxhPJUSn2IfiByVEGkcZAulTKaWZrIRHcyUJJ6jjmZKJBr5iHrGsohiiXaeIkAz1ZT0+/oXaiARbiWMdiQAAAAASUVORK5CYII=" x="3" y="68" width="80" height="42"/>
+  </a>
+  <line x1="86" y1="425" x2="137" y2="425" stroke="#BABABA" stroke-width="800" stroke-dasharray="51,51"/>
+  <rect x="137" y="25" width="51" height="800" fill="#949494"/>
+  <line x1="69" y1="153" x2="69" y2="825" stroke="#949494" stroke-width="137" stroke-dasharray="16,16"/>
+  <line x1="86" y1="425" x2="188" y2="425" stroke="#757575" stroke-width="800" stroke-dasharray="1,50"/>
+  <rect x="1" y="1" width="186" height="25" fill="#231f20"/>
+  <text x="5" y="19" font-size="17" fill="#FEFEFE" text-anchor="start">2018-12-02-0930</text>
+  <line x1="1" y1="25" x2="187" y2="25" stroke="#757575" stroke-width="1"/>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="165" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="181" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="197" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="213" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="229" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="245" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="261" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="277" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="293" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="309" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="325" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="341" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="357" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="373" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="389" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="405" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="421" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="437" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="453" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="469" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="485" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="501" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="517" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="533" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="549" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="565" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="581" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="597" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="613" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="629" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="645" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="661" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="677" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="693" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="709" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="725" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="741" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="757" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="773" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="789" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="805" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/schbench-1.0.0" xlink:show="new">
+    <text x="84" y="821" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Schbench</text>
+  </a>
+  <text x="114.5" y="149" font-size="10" fill="#065695" font-weight="bold" text-anchor="end" transform="rotate(90 114.5 149)">2018-12-02 09:30</text>
+  <text x="111.5" y="166" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 7.57%;  STD Error: 1001.30">22923</text>
+  <text x="111.5" y="182" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 7.66%;  STD Error: 1421.79">32149</text>
+  <text x="111.5" y="198" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 3.82%;  STD Error: 1118.32">50752</text>
+  <text x="111.5" y="214" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 17.15%;  STD Error: 6910.06">69803</text>
+  <text x="111.5" y="230" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 4.40%;  STD Error: 705.29">27765</text>
+  <text x="111.5" y="246" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 5.30%;  STD Error: 1774.13">57963</text>
+  <text x="111.5" y="262" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 3.19%;  STD Error: 2070.98">112597</text>
+  <text x="111.5" y="278" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 2.47%;  STD Error: 1968.22">137813</text>
+  <text x="111.5" y="294" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 4.21%;  STD Error: 1006.07">41365</text>
+  <text x="111.5" y="310" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 3.18%;  STD Error: 1955.23">106624</text>
+  <text x="111.5" y="326" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 7.79%;  STD Error: 7192.34">160000</text>
+  <text x="111.5" y="342" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 9.55%;  STD Error: 11624.14">210859</text>
+  <text x="111.5" y="358" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 4.57%;  STD Error: 1354.62">51392</text>
+  <text x="111.5" y="374" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 10.18%;  STD Error: 8224.93">139904</text>
+  <text x="111.5" y="390" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 4.71%;  STD Error: 5840.19">214955</text>
+  <text x="111.5" y="406" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 1.29%;  STD Error: 2048.00">274944</text>
+  <text x="111.5" y="422" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 2.96%;  STD Error: 2048.00">119936</text>
+  <text x="111.5" y="438" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 8.23%;  STD Error: 12697.47">267179</text>
+  <text x="111.5" y="454" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 2.46%;  STD Error: 5619.06">396117</text>
+  <text x="111.5" y="470" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 4.42%;  STD Error: 12207.14">478379</text>
+  <text x="111.5" y="486" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 3.79%;  STD Error: 3133.02">143275</text>
+  <text x="111.5" y="502" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 6.30%;  STD Error: 8035.85">220928</text>
+  <text x="111.5" y="518" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 6.02%;  STD Error: 9945.64">286208</text>
+  <text x="111.5" y="534" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 1.64%;  STD Error: 2097.19">221099</text>
+  <text x="111.5" y="550" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 3.35%;  STD Error: 9911.90">512683</text>
+  <text x="111.5" y="566" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 1.74%;  STD Error: 8305.00">825685</text>
+  <text x="111.5" y="582" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 2.48%;  STD Error: 14384.68">1004544</text>
+  <text x="111.5" y="598" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 9.48%;  STD Error: 15044.10">274859</text>
+  <text x="111.5" y="614" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 2.68%;  STD Error: 6256.74">403968</text>
+  <text x="111.5" y="630" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 1.11%;  STD Error: 3413.33">532139</text>
+  <text x="111.5" y="646" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 7.53%;  STD Error: 18378.19">422741</text>
+  <text x="111.5" y="662" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 1.83%;  STD Error: 6723.49">636587</text>
+  <text x="111.5" y="678" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 4.93%;  STD Error: 22507.30">790187</text>
+  <text x="111.5" y="694" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 2.76%;  STD Error: 8239.86">517120</text>
+  <text x="111.5" y="710" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 15.74%;  STD Error: 80816.75">889515</text>
+  <text x="111.5" y="726" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 10.79%;  STD Error: 64782.33">1040384</text>
+  <text x="111.5" y="742" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 11.97%;  STD Error: 84087.24">1217195</text>
+  <text x="111.5" y="758" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 11.86%;  STD Error: 148440.37">2167467</text>
+  <text x="111.5" y="774" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 5.23%;  STD Error: 72401.30">2398891</text>
+  <text x="111.5" y="790" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 12.16%;  STD Error: 170055.27">2421419</text>
+  <text x="111.5" y="806" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 13.53%;  STD Error: 233643.60">2991445</text>
+  <text x="111.5" y="822" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 11.96%;  STD Error: 255445.07">3698688</text>
+  <line x1="69" y1="153" x2="69" y2="825" stroke="#949494" stroke-width="137" stroke-dasharray="1,15"/>
+  <rect x="0" y="825" width="188" height="16" fill="#231f20"/>
+  <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
+    <text x="186" y="838" font-size="10" fill="#FFFFFF" text-anchor="end" xlink:show="new">PHORONIX-TEST-SUITE.COM</text>
+  </a>
+</svg>

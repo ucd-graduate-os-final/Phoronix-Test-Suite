@@ -42,6 +42,8 @@ class PhoronixTestSuite:
 
     def _stach_git(self):
         os.system('git config credential.helper store')
+        os.system('git config --global user.name "Johnathan Becker"')
+        os.system('git config --global user.email "historybuffjb@gmail.com"')
         os.system('cd {}'.format(self._git_folder))
         os.system('git pull {}'.format(self._git_name))
         os.system('git push')

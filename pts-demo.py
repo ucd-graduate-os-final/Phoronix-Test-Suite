@@ -49,7 +49,7 @@ class PhoronixTestSuite:
 
     def _push_to_git(self):
         os.system('git add -A')
-        os.system('git commit "{}"'.format('Update Code'))
+        os.system('git commit -m "{}"'.format('Update Code'))
         os.system('git push')
         os.system('git pull {}'.format(self._git_name))
 

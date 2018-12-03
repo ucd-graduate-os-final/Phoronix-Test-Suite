@@ -4,7 +4,7 @@ import xmltodict
 print(len(sys.argv))
 if(len(sys.argv)) != 2:
     raise Exception("This file takes 2 arguments. Exiting...")
-path = sys.argv[2]
+path = sys.argv[1]
 if not os.path.exists(path):
     raise Exception("Folder {} does not exist. Exiting...".format(path))
 paths = os.listdir(path)

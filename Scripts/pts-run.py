@@ -7,7 +7,12 @@ if(len(sys.argv)) != 4:
 
 class PhoronixTestSuite:
     def __init__(self, folder_path, test_name, num_runs):
-        self._tests = ['polybench-c']
+        self._tests = ['blogbench', 'c-ray', 'cachebench', 'dacapobench', 'dolfyn', 'glibc-bench',
+                       'himeno', 'hmmer', 'hpcg', 'iperf', 'lammps', 'm-queens', 'mcperf',
+                       'mrbayes', 'namd', 'netperf', 'osbench', 'pjdfstest', 'polybench-c',
+                       'primesieve', 'psstop', 'sample-program', 'schbench', 'startup-time', 'stockfish',
+                       'sysbench', 'systemd-boot-kernel', 'systemd-boot-total', 'systemd-boot-userspace-1.0.1',
+                       'tachyon']
         self._test_name = test_name
         self._num_runs = int(num_runs)
         self._git_name = 'https://github.com/ucd-graduate-os-final/Phoronix-Test-Suite'
@@ -29,7 +34,7 @@ class PhoronixTestSuite:
                                        os.path.join(self._final_results_path, '{}-run{}'.format(self._test_name, i)))
             os.system('python rename-script.py {}'.format(self._final_results_path))
         self._push_to_git()
-        # self._stop_vm_instance()
+        self._stop_vm_instance()
 
     def install_tests(self):
         for test in self._tests:

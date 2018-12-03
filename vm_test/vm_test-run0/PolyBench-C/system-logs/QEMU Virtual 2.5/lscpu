@@ -12,7 +12,7 @@ CPU family:            6
 Model:                 6
 Model name:            QEMU Virtual CPU version 2.5+
 Stepping:              3
-CPU MHz:               1999.999
+CPU MHz:               1999.997
 BogoMIPS:              3999.99
 Virtualization:        VT-x
 Hypervisor vendor:     KVM

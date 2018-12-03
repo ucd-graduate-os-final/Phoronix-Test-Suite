@@ -1,8 +1,8 @@
 Module                  Size  Used by
 kvm_intel             176128  0
 kvm                   552960  1 kvm_intel
-input_leds             16384  0
 joydev                 20480  0
+input_leds             16384  0
 irqbypass              16384  1 kvm
 serio_raw              16384  0
 ib_iser                49152  0

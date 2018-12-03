@@ -129,8 +129,8 @@ NR_IRQS:33024 nr_irqs:488 16
 Console: colour VGA+ 80x25
 console [tty1] enabled
 console [ttyS0] enabled
-tsc: Detected 1999.999 MHz processor
-Calibrating delay loop (skipped) preset value.. 3999.99 BogoMIPS (lpj=7999996)
+tsc: Detected 1999.997 MHz processor
+Calibrating delay loop (skipped) preset value.. 3999.99 BogoMIPS (lpj=7999988)
 pid_max: default: 32768 minimum: 301
 Security Framework initialized
 Yama: becoming mindful.
@@ -202,7 +202,7 @@ kvm-stealtime: cpu 6, msr 73bf90200
 x86: Booted up 1 node, 8 CPUs
 KVM setup async PF for cpu 7
 kvm-stealtime: cpu 7, msr 73bfd0200
-smpboot: Total of 8 processors activated (31999.98 BogoMIPS)
+smpboot: Total of 8 processors activated (31999.95 BogoMIPS)
 devtmpfs: initialized
 evm: security.selinux
 evm: security.SMACK64
@@ -214,7 +214,7 @@ evm: security.capability
 clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
 futex hash table entries: 2048 (order: 5, 131072 bytes)
 pinctrl core: initialized pinctrl subsystem
-RTC time: 21:36:48, date: 12/03/18
+RTC time: 22:11:46, date: 12/03/18
 NET: Registered protocol family 16
 cpuidle: using governor ladder
 cpuidle: using governor menu
@@ -290,7 +290,7 @@ software IO TLB [mem 0xbbffc000-0xbfffc000] (64MB) mapped at [ffff8800bbffc000-f
 platform rtc_cmos: registered platform RTC device (no PNP device found)
 Scanning for low memory corruption every 60 seconds
 audit: initializing netlink subsys (disabled)
-audit: type=2000 audit(1543873008.495:1): initialized
+audit: type=2000 audit(1543875106.056:1): initialized
 Initialise system trusted keyring
 HugeTLB registered 2 MB page size, pre-allocated 0 pages
 zbud: loaded
@@ -348,8 +348,8 @@ i8042: PNP: No PS/2 controller found. Probing ports directly.
 serio: i8042 KBD port at 0x60,0x64 irq 1
 serio: i8042 AUX port at 0x60,0x64 irq 12
 mousedev: PS/2 mouse device common for all mice
-input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
 rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
 rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
 i2c /dev entries driver
 device-mapper: uevent: version 1.0.3
@@ -368,8 +368,8 @@ AppArmor: AppArmor sha1 policy hashing enabled
 ima: No TPM chip found, activating TPM-bypass!
 ima: Allocated hash algorithm: sha1
 evm: HMAC attrs: 0x1
-  Magic number: 14:72:651
-rtc_cmos rtc_cmos: setting system clock to 2018-12-03 21:36:49 UTC (1543873009)
+  Magic number: 14:213:198
+rtc_cmos rtc_cmos: setting system clock to 2018-12-03 22:11:47 UTC (1543875107)
 BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
 EDD information not available.
 PM: Hibernation image not present or could not be loaded.
@@ -380,7 +380,7 @@ Freeing unused kernel memory: 92K
 random: systemd-udevd: uninitialized urandom read (16 bytes read, 4 bits of entropy available)
 random: udevadm: uninitialized urandom read (16 bytes read, 4 bits of entropy available)
 random: udevadm: uninitialized urandom read (16 bytes read, 4 bits of entropy available)
-random: udevadm: uninitialized urandom read (16 bytes read, 4 bits of entropy available)
+random: systemd-udevd: uninitialized urandom read (16 bytes read, 4 bits of entropy available)
 random: udevadm: uninitialized urandom read (16 bytes read, 4 bits of entropy available)
 random: udevadm: uninitialized urandom read (16 bytes read, 4 bits of entropy available)
 random: udevadm: uninitialized urandom read (16 bytes read, 4 bits of entropy available)
@@ -389,85 +389,90 @@ random: udevadm: uninitialized urandom read (16 bytes read, 4 bits of entropy av
 random: udevadm: uninitialized urandom read (16 bytes read, 4 bits of entropy available)
 virtio_net virtio0 enp0s2: renamed from eth0
 input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input3
+clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x39a856ed927, max_idle_ns: 881590446804 ns
 input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input2
-clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x39a85afc727, max_idle_ns: 881590685098 ns
 md: linear personality registered for level -1
 md: multipath personality registered for level -4
 md: raid0 personality registered for level 0
 md: raid1 personality registered for level 1
-raid6: sse2x1   gen()  8074 MB/s
-raid6: sse2x1   xor()  6709 MB/s
-raid6: sse2x2   gen() 10380 MB/s
-raid6: sse2x2   xor()  7187 MB/s
-raid6: sse2x4   gen() 11603 MB/s
-raid6: sse2x4   xor()  7889 MB/s
-raid6: using algorithm sse2x4 gen() 11603 MB/s
-raid6: .... xor() 7889 MB/s, rmw enabled
+raid6: sse2x1   gen()  8458 MB/s
+raid6: sse2x1   xor()  6605 MB/s
+raid6: sse2x2   gen() 10446 MB/s
+raid6: sse2x2   xor()  7270 MB/s
+raid6: sse2x4   gen() 11550 MB/s
+raid6: sse2x4   xor()  8103 MB/s
+raid6: using algorithm sse2x4 gen() 11550 MB/s
+raid6: .... xor() 8103 MB/s, rmw enabled
 raid6: using intx1 recovery algorithm
 xor: measuring software checksum speed
-   prefetch64-sse: 13719.000 MB/sec
-   generic_sse: 13159.000 MB/sec
-xor: using function: prefetch64-sse (13719.000 MB/sec)
+   prefetch64-sse: 14174.000 MB/sec
+   generic_sse: 13342.000 MB/sec
+xor: using function: prefetch64-sse (14174.000 MB/sec)
 async_tx: api initialized (async)
 md: raid6 personality registered for level 6
 md: raid5 personality registered for level 5
 md: raid4 personality registered for level 4
 md: raid10 personality registered for level 10
 Btrfs loaded
+EXT4-fs (vda1): INFO: recovery required on readonly filesystem
+EXT4-fs (vda1): write access will be enabled during recovery
+EXT4-fs (vda1): orphan cleanup on readonly fs
+EXT4-fs (vda1): 1 orphan inode deleted
+EXT4-fs (vda1): recovery complete
 EXT4-fs (vda1): mounted filesystem with ordered data mode. Opts: (null)
 systemd[1]: systemd 229 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ -LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD -IDN)
 systemd[1]: Detected virtualization qemu.
 systemd[1]: Detected architecture x86-64.
 systemd[1]: Set hostname to <ubuntu>.
-systemd[1]: Listening on udev Control Socket.
-systemd[1]: Listening on LVM2 poll daemon socket.
-systemd[1]: Created slice System Slice.
-systemd[1]: Created slice User and Session Slice.
-systemd[1]: Listening on Journal Audit Socket.
-systemd[1]: Reached target Encrypted Volumes.
-systemd[1]: Started Trigger resolvconf update for networkd DNS.
-systemd[1]: Started Forward Password Requests to Wall Directory Watch.
-systemd[1]: Reached target Swap.
-systemd[1]: Listening on Journal Socket.
-systemd[1]: Mounting POSIX Message Queue File System...
-systemd[1]: Starting Set console keymap...
-systemd[1]: Starting Uncomplicated firewall...
-systemd[1]: Starting Load Kernel Modules...
-systemd[1]: Starting Nameserver information manager...
-Loading iSCSI transport class v2.0-870.
-systemd[1]: Listening on Device-mapper event daemon FIFOs.
-systemd[1]: Created slice system-serial\x2dgetty.slice.
-iscsi: registered transport (tcp)
-systemd[1]: Starting Remount Root and Kernel File Systems...
-EXT4-fs (vda1): re-mounted. Opts: (null)
-systemd[1]: Mounting Debug File System...
-systemd[1]: Starting Create list of required static device nodes for the current kernel...
 systemd[1]: Listening on Journal Socket (/dev/log).
-systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
-systemd[1]: Reached target User and Group Name Lookups.
-iscsi: registered transport (iser)
-systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.
+systemd[1]: Listening on LVM2 metadata daemon socket.
 systemd[1]: Listening on udev Kernel Socket.
+systemd[1]: Reached target Swap.
+systemd[1]: Created slice User and Session Slice.
+systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+systemd[1]: Listening on Journal Audit Socket.
+systemd[1]: Listening on Journal Socket.
+systemd[1]: Listening on Device-mapper event daemon FIFOs.
+systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.
+systemd[1]: Reached target User and Group Name Lookups.
+systemd[1]: Listening on udev Control Socket.
+systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+systemd[1]: Created slice System Slice.
+systemd[1]: Starting Uncomplicated firewall...
+systemd[1]: Starting Create list of required static device nodes for the current kernel...
+systemd[1]: Created slice system-serial\x2dgetty.slice.
+systemd[1]: Starting Remount Root and Kernel File Systems...
+systemd[1]: Mounting POSIX Message Queue File System...
+EXT4-fs (vda1): re-mounted. Opts: (null)
+systemd[1]: Starting Load Kernel Modules...
+systemd[1]: Starting Set console keymap...
+Loading iSCSI transport class v2.0-870.
+systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
 systemd[1]: Listening on Syslog Socket.
-systemd[1]: Starting Journal Service...
+systemd[1]: Starting Nameserver information manager...
 systemd[1]: Reached target Slices.
 systemd[1]: Mounting Huge Pages File System...
-systemd[1]: Listening on LVM2 metadata daemon socket.
-systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+iscsi: registered transport (tcp)
+systemd[1]: Listening on LVM2 poll daemon socket.
+systemd[1]: Starting Journal Service...
+systemd[1]: Reached target Encrypted Volumes.
+systemd[1]: Mounting Debug File System...
+systemd[1]: Started Trigger resolvconf update for networkd DNS.
 systemd[1]: Mounted Huge Pages File System.
 systemd[1]: Mounted POSIX Message Queue File System.
 systemd[1]: Mounted Debug File System.
 systemd[1]: Started Journal Service.
-systemd-journald[391]: Received request to flush runtime journal from PID 1
-audit: type=1400 audit(1543873014.168:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=689 comm="apparmor_parser"
-audit: type=1400 audit(1543873014.172:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=691 comm="apparmor_parser"
-audit: type=1400 audit(1543873014.172:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=691 comm="apparmor_parser"
-audit: type=1400 audit(1543873014.176:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lxd/lxd-bridge-proxy" pid=690 comm="apparmor_parser"
-audit: type=1400 audit(1543873014.176:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default" pid=687 comm="apparmor_parser"
-audit: type=1400 audit(1543873014.176:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=687 comm="apparmor_parser"
-audit: type=1400 audit(1543873014.176:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=687 comm="apparmor_parser"
-audit: type=1400 audit(1543873014.176:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-nesting" pid=687 comm="apparmor_parser"
-audit: type=1400 audit(1543873014.180:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/tcpdump" pid=693 comm="apparmor_parser"
-audit: type=1400 audit(1543873014.184:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=688 comm="apparmor_parser"
+iscsi: registered transport (iser)
+systemd-journald[371]: Received request to flush runtime journal from PID 1
+audit: type=1400 audit(1543875113.004:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/lxc-start" pid=675 comm="apparmor_parser"
+audit: type=1400 audit(1543875113.012:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lxd/lxd-bridge-proxy" pid=676 comm="apparmor_parser"
+audit: type=1400 audit(1543875113.016:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/tcpdump" pid=679 comm="apparmor_parser"
+audit: type=1400 audit(1543875113.016:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=674 comm="apparmor_parser"
+audit: type=1400 audit(1543875113.016:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=674 comm="apparmor_parser"
+audit: type=1400 audit(1543875113.016:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=674 comm="apparmor_parser"
+audit: type=1400 audit(1543875113.016:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=674 comm="apparmor_parser"
+audit: type=1400 audit(1543875113.016:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default" pid=673 comm="apparmor_parser"
+audit: type=1400 audit(1543875113.016:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-cgns" pid=673 comm="apparmor_parser"
+audit: type=1400 audit(1543875113.016:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lxc-container-default-with-mounting" pid=673 comm="apparmor_parser"
 cgroup: new mount options do not match the existing superblock, will be ignored
 random: nonblocking pool is initialized

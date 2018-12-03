@@ -5,7 +5,7 @@ model		: 6
 model name	: QEMU Virtual CPU version 2.5+
 stepping	: 3
 microcode	: 0x1
-cpu MHz		: 1999.999
+cpu MHz		: 1999.997
 cache size	: 16384 KB
 physical id	: 0
 siblings	: 1
@@ -32,7 +32,7 @@ model		: 6
 model name	: QEMU Virtual CPU version 2.5+
 stepping	: 3
 microcode	: 0x1
-cpu MHz		: 1999.999
+cpu MHz		: 1999.997
 cache size	: 16384 KB
 physical id	: 1
 siblings	: 1
@@ -59,7 +59,7 @@ model		: 6
 model name	: QEMU Virtual CPU version 2.5+
 stepping	: 3
 microcode	: 0x1
-cpu MHz		: 1999.999
+cpu MHz		: 1999.997
 cache size	: 16384 KB
 physical id	: 2
 siblings	: 1
@@ -86,7 +86,7 @@ model		: 6
 model name	: QEMU Virtual CPU version 2.5+
 stepping	: 3
 microcode	: 0x1
-cpu MHz		: 1999.999
+cpu MHz		: 1999.997
 cache size	: 16384 KB
 physical id	: 3
 siblings	: 1
@@ -113,7 +113,7 @@ model		: 6
 model name	: QEMU Virtual CPU version 2.5+
 stepping	: 3
 microcode	: 0x1
-cpu MHz		: 1999.999
+cpu MHz		: 1999.997
 cache size	: 16384 KB
 physical id	: 4
 siblings	: 1
@@ -140,7 +140,7 @@ model		: 6
 model name	: QEMU Virtual CPU version 2.5+
 stepping	: 3
 microcode	: 0x1
-cpu MHz		: 1999.999
+cpu MHz		: 1999.997
 cache size	: 16384 KB
 physical id	: 5
 siblings	: 1
@@ -167,7 +167,7 @@ model		: 6
 model name	: QEMU Virtual CPU version 2.5+
 stepping	: 3
 microcode	: 0x1
-cpu MHz		: 1999.999
+cpu MHz		: 1999.997
 cache size	: 16384 KB
 physical id	: 6
 siblings	: 1
@@ -194,7 +194,7 @@ model		: 6
 model name	: QEMU Virtual CPU version 2.5+
 stepping	: 3
 microcode	: 0x1
-cpu MHz		: 1999.999
+cpu MHz		: 1999.997
 cache size	: 16384 KB
 physical id	: 7
 siblings	: 1

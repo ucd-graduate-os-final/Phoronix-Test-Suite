@@ -1,0 +1,1 @@
+BOOT_IMAGE=/boot/vmlinuz-4.18.0-10-generic root=UUID=2e5bb77a-7148-48b8-8eea-054fc6762504 ro find_preseed=/preseed.cfg auto noprompt priority=critical locale=en_US quiet

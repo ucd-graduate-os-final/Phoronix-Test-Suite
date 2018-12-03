@@ -60,7 +60,7 @@ class PhoronixTestSuite:
         os.system('git push')
         os.system('git pull {}'.format(self._git_name))
 
-path = '~/pts_project'
+path = '~/Phoronix-Test-Suite'
 name = sys.argv[1]
 runs = sys.argv[2]
 pts = PhoronixTestSuite(path, name, runs)

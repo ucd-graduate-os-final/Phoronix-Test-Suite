@@ -22,7 +22,6 @@ class PhoronixTestSuite:
             os.mkdir(self._test_name)
         else:
             raise Exception("It looks like this path already exists. Are you sure you want to re-run these tests?")
-        exit()
         for i in range(self._num_runs):
             for test in self._tests:
                 os.system('phoronix-test-suite batch-run {}'.format(test))

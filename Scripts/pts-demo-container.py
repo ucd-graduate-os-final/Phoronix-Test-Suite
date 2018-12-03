@@ -12,7 +12,7 @@ class PhoronixTestSuite:
         self._num_runs = int(num_runs)
         self._git_name = 'https://github.com/ucd-graduate-os-final/Phoronix-Test-Suite'
         self._git_folder = folder_path
-        self._test_suite_path = os.path.join('~', '.phoronix-test-suite', 'test-results')
+        self._test_suite_path = "/var/lib/phoronix-test-suite/test-results"
         self._final_results_path = os.path.join(self._git_folder, self._test_name)
 
     def run_tests(self):
@@ -27,7 +27,7 @@ class PhoronixTestSuite:
             print("All tests completed. ")
             self._move_folder_contents(self._test_suite_path,
                                        os.path.join(self._final_results_path, '{}-run{}'.format(self._test_name, i)))
-            os.system('python rename-script.py {}'.format(self._final_results_path))
+            os.system('python Scripts/rename-script.py {}'.format(self._final_results_path))
         self._push_to_git()
         # self._stop_vm_instance()
 
@@ -60,7 +60,7 @@ class PhoronixTestSuite:
         os.system('git push')
         os.system('git pull {}'.format(self._git_name))
 
-path = '~/Phoronix-Test-Suite'
+path = '/pts_project'
 name = sys.argv[1]
 runs = sys.argv[2]
 pts = PhoronixTestSuite(path, name, runs)

@@ -1,0 +1,69 @@
+Module                  Size  Used by
+rfcomm                 77824  4
+bnep                   20480  2
+btusb                  45056  0
+btrtl                  16384  1 btusb
+btbcm                  16384  1 btusb
+btintel                20480  1 btusb
+snd_ens1371            28672  2
+snd_ac97_codec        131072  1 snd_ens1371
+gameport               20480  1 snd_ens1371
+ac97_bus               16384  1 snd_ac97_codec
+vmw_balloon            20480  0
+bluetooth             548864  27 btrtl,btintel,btbcm,bnep,btusb,rfcomm
+snd_pcm                98304  2 snd_ac97_codec,snd_ens1371
+snd_seq_midi           16384  0
+snd_seq_midi_event     16384  1 snd_seq_midi
+snd_rawmidi            32768  2 snd_seq_midi,snd_ens1371
+crct10dif_pclmul       16384  0
+crc32_pclmul           16384  0
+ghash_clmulni_intel    16384  0
+snd_seq                65536  2 snd_seq_midi,snd_seq_midi_event
+snd_seq_device         16384  3 snd_seq,snd_seq_midi,snd_rawmidi
+snd_timer              32768  2 snd_seq,snd_pcm
+input_leds             16384  0
+pcbc                   16384  0
+snd                    81920  11 snd_seq,snd_seq_device,snd_timer,snd_ac97_codec,snd_pcm,snd_rawmidi,snd_ens1371
+aesni_intel           200704  0
+aes_x86_64             20480  1 aesni_intel
+crypto_simd            16384  1 aesni_intel
+cryptd                 24576  3 crypto_simd,ghash_clmulni_intel,aesni_intel
+ecdh_generic           24576  1 bluetooth
+glue_helper            16384  1 aesni_intel
+intel_rapl_perf        16384  0
+vmwgfx                270336  4
+ttm                   106496  1 vmwgfx
+drm_kms_helper        172032  1 vmwgfx
+joydev                 20480  0
+serio_raw              16384  0
+drm                   458752  7 vmwgfx,drm_kms_helper,ttm
+soundcore              16384  1 snd
+fb_sys_fops            16384  1 drm_kms_helper
+syscopyarea            16384  1 drm_kms_helper
+sysfillrect            16384  1 drm_kms_helper
+sysimgblt              16384  1 drm_kms_helper
+mac_hid                16384  0
+vmw_vsock_vmci_transport    28672  2
+vsock                  36864  3 vmw_vsock_vmci_transport
+vmw_vmci               69632  2 vmw_balloon,vmw_vsock_vmci_transport
+sch_fq_codel           20480  2
+parport_pc             36864  0
+ppdev                  20480  0
+lp                     20480  0
+parport                49152  3 parport_pc,lp,ppdev
+ip_tables              24576  0
+x_tables               40960  1 ip_tables
+autofs4                40960  2
+psmouse               151552  0
+pata_acpi              16384  0
+mptspi                 24576  1
+i2c_piix4              24576  0
+mptscsih               40960  1 mptspi
+ahci                   40960  0
+mptbase                98304  2 mptspi,mptscsih
+e1000                 143360  0
+libahci                32768  1 ahci
+scsi_transport_spi     32768  1 mptspi
+hid_generic            16384  0
+usbhid                 49152  0
+hid                   126976  2 usbhid,hid_generic

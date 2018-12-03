@@ -10,7 +10,7 @@ class PhoronixTestSuite:
     def __init__(self, folder_path, test_name, num_runs):
         self._tests = ['osbench', 'polybench-c']
         self._test_name = test_name
-        self._num_runs = num_runs
+        self._num_runs = int(num_runs)
         self._git_name = 'https://github.com/ucd-graduate-os-final/Phoronix-Test-Suite'
         self._git_folder = folder_path
         self._test_suite_path = os.path.join('~', '.phoronix-test-suite', 'test-results')

@@ -9,6 +9,7 @@ class PhoronixTestSuite:
     def __init__(self, folder_path, test_name, num_runs):
         #self._tests = ['osbench', 'polybench-c']
         self._tests = ['polybench-c']
+        #self._tests = []
         self._test_name = test_name
         self._num_runs = int(num_runs)
         self._git_name = 'https://github.com/ucd-graduate-os-final/Phoronix-Test-Suite'
@@ -29,7 +30,7 @@ class PhoronixTestSuite:
             self._move_folder_contents(self._test_suite_path,
                                        os.path.join(self._final_results_path, '{}-run{}'.format(self._test_name, i)))
             os.system('python3 /root/pts_project/Scripts/rename-script.py {}'.format(self._final_results_path))
-        self._push_to_git()
+        #self._push_to_git()
         # self._stop_vm_instance()
 
     def install_tests(self):

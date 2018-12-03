@@ -1,0 +1,26 @@
+Device: /org/freedesktop/UPower/devices/line_power_ACAD
+  native-path:          ACAD
+  power supply:         yes
+  updated:              Sun 02 Dec 2018 08:27:34 PM PST (8845 seconds ago)
+  has history:          no
+  has statistics:       no
+  line-power
+    warning-level:       none
+    online:              yes
+    icon-name:          'ac-adapter-symbolic'
+
+Device: /org/freedesktop/UPower/devices/DisplayDevice
+  power supply:         no
+  updated:              Sun 02 Dec 2018 08:27:34 PM PST (8845 seconds ago)
+  has history:          no
+  has statistics:       no
+  unknown
+    warning-level:       none
+    icon-name:          'battery-missing-symbolic'
+
+Daemon:
+  daemon-version:  0.99.8
+  on-battery:      no
+  lid-is-closed:   no
+  lid-is-present:  no
+  critical-action: HybridSleep

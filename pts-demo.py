@@ -7,7 +7,7 @@ if(len(sys.argv)) != 4:
 
 class PhoronixTestSuite:
     def __init__(self, folder_path, test_name, num_runs):
-        self._tests = ['blogbench', 'c-ray']
+        self._tests = ['polybench-c', 'c-ray']
         self._test_name = test_name
         self._num_runs = int(num_runs)
         self._git_name = 'https://github.com/ucd-graduate-os-final/Phoronix-Test-Suite'

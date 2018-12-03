@@ -19,9 +19,9 @@ class PhoronixTestSuite:
 
     def run_tests(self):
         self._stach_git()
-        # for test in self._tests:
-        #     os.system('phoronix-test-suite batch-run {}'.format(test))
-        # print("All tests completed. ")
+        for test in self._tests:
+            os.system('phoronix-test-suite batch-run {}'.format(test))
+        print("All tests completed. ")
         self._move_folder_contents(self._test_suite_path, os.path.join(self._git_folder, self._magic))
         self._push_to_git()
         # self._stop_vm_instance()
@@ -38,7 +38,7 @@ class PhoronixTestSuite:
             os.system('mkdir {}'.format(to_path))
         except Exception:
             pass
-        os.system('sudo mv {} {}'.format(os.path.join(from_path, '*'), to_path))
+        os.system('mv {} {}'.format(os.path.join(from_path, '*'), to_path))
 
     def _stach_git(self):
         os.system('git config credential.helper store')
@@ -48,6 +48,7 @@ class PhoronixTestSuite:
         os.system("git config --global credential.helper 'cache --timeout=86400'")
 
     def _push_to_git(self):
+        os.system('git add -A')
         os.system('git commit "{}"'.format('Update Code'))
         os.system('git push')
         os.system('git pull {}'.format(self._git_name))

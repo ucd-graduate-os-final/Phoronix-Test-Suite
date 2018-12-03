@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a256f4d-b922-4dcc-bff9-88adb762f6d6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Phoronix-Test-Suite.iml" afterPath="$PROJECT_DIR$/.idea/Phoronix-Test-Suite.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Scripts/pts-demo-container.py" afterPath="$PROJECT_DIR$/Scripts/pts-demo-container.py" />
-    </list>
+    <list default="true" id="3a256f4d-b922-4dcc-bff9-88adb762f6d6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

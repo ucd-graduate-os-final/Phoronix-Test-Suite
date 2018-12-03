@@ -12,7 +12,7 @@ class PhoronixTestSuite:
         self._num_runs = int(num_runs)
         self._git_name = 'https://github.com/ucd-graduate-os-final/Phoronix-Test-Suite'
         self._git_folder = folder_path
-        self._test_suite_path = os.path.join('~', '.phoronix-test-suite', 'test-results')
+        self._test_suite_path = '/root/.phoronix-test-suite/test-results'
         self._final_results_path = os.path.join(self._git_folder, self._test_name)
 
     def run_tests(self):
@@ -55,12 +55,13 @@ class PhoronixTestSuite:
         os.system("git config --global credential.helper 'cache --timeout=86400'")
 
     def _push_to_git(self):
+
         os.system('git add -A')
         os.system('git commit -m "{}"'.format('Update Code'))
         os.system('git push')
         os.system('git pull {}'.format(self._git_name))
 
-path = '~/Phoronix-Test-Suite'
+path = '/root/pts_project'
 name = sys.argv[1]
 runs = sys.argv[2]
 pts = PhoronixTestSuite(path, name, runs)

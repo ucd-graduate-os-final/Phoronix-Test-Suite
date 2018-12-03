@@ -22,12 +22,12 @@ class PhoronixTestSuite:
         else:
             raise Exception("It looks like this path already exists. Are you sure you want to re-run these tests?")
         for i in range(self._num_runs):
+            temp_path = os.path.join(self._final_results_path, '{}-run{}'.format(self._test_name, i))
             for test in self._tests:
                 os.system('phoronix-test-suite batch-run {}'.format(test))
             print("All tests completed. ")
-            self._move_folder_contents(self._test_suite_path,
-                                       os.path.join(self._final_results_path, '{}-run{}'.format(self._test_name, i)))
-            os.system('python rename-script.py {}'.format(self._final_results_path))
+            self._move_folder_contents(self._test_suite_path, temp_path)
+            os.system('python rename-script.py {}'.format(temp_path))
         self._push_to_git()
         # self._stop_vm_instance()
 

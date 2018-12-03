@@ -16,7 +16,7 @@ class PhoronixTestSuite:
         self._final_results_path = os.path.join(self._git_folder, self._test_name)
 
     def run_tests(self):
-        self._stach_git()
+        #self._stach_git()
         if not os.path.exists(self._final_results_path):
             os.mkdir(self._test_name)
         else:
@@ -27,7 +27,7 @@ class PhoronixTestSuite:
             print("All tests completed. ")
             self._move_folder_contents(self._test_suite_path,
                                        os.path.join(self._final_results_path, '{}-run{}'.format(self._test_name, i)))
-            os.system('python rename-script.py {}'.format(self._final_results_path))
+            os.system('python3 /root/pts_project/Scripts/rename-script.py {}'.format(self._final_results_path))
         self._push_to_git()
         # self._stop_vm_instance()
 
@@ -55,9 +55,10 @@ class PhoronixTestSuite:
         os.system("git config --global credential.helper 'cache --timeout=86400'")
 
     def _push_to_git(self):
-
+        os.system('cd {}'.format(self._git_folder))
         os.system('git add -A')
         os.system('git commit -m "{}"'.format('Update Code'))
+        os.system('git pull {}'.format(self._git_name))
         os.system('git push')
         os.system('git pull {}'.format(self._git_name))
 

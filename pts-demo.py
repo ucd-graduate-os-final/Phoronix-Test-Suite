@@ -2,27 +2,33 @@ import os
 import sys
 import datetime
 
-if(len(sys.argv)) != 2:
-    raise Exception("This file takes 3 arguments. Exiting...")
+if(len(sys.argv)) != 4:
+    raise Exception("This file takes 5 arguments. Exiting...")
 
 
 class PhoronixTestSuite:
-    def __init__(self, folder_path):
+    def __init__(self, folder_path, test_name, num_runs):
         self._tests = ['osbench', 'polybench-c']
-        self._magic = str(datetime.datetime.now()).replace(' ', '').replace(':', '').replace('.', '').replace('-', '')
+        self._test_name = test_name
+        self._num_runs = num_runs
         self._git_name = 'https://github.com/ucd-graduate-os-final/Phoronix-Test-Suite'
         self._git_folder = folder_path
         self._test_suite_path = os.path.join('~', '.phoronix-test-suite', 'test-results')
-
-    def _create_result_name(self, file_name):
-        return '{}_{}'.format(file_name, self._magic)
+        self._final_results_path = os.path.join(self._git_folder, self._test_name)
 
     def run_tests(self):
         self._stach_git()
-        for test in self._tests:
-            os.system('phoronix-test-suite batch-run {}'.format(test))
-        print("All tests completed. ")
-        self._move_folder_contents(self._test_suite_path, os.path.join(self._git_folder, self._magic))
+        if not os.path.exists(self._final_results_path):
+            os.mkdir(self._final_results_path)
+        else:
+            raise Exception("It looks like this path already exists. Are you sure you want to re-run these tests?")
+        for i in range(self._num_runs):
+            for test in self._tests:
+                os.system('phoronix-test-suite batch-run {}'.format(test))
+            print("All tests completed. ")
+            self._move_folder_contents(self._test_suite_path,
+                                       os.path.join(self._git_folder, '{}-run{}'.format(self._test_name, i)))
+            os.system('python rename-script.py {}'.format(self._final_results_path))
         self._push_to_git()
         # self._stop_vm_instance()
 
@@ -56,10 +62,12 @@ class PhoronixTestSuite:
         os.system('git pull {}'.format(self._git_name))
 
 path = '~/Phoronix-Test-Suite'
-pts = PhoronixTestSuite(path)
-if sys.argv[1] == 'install':
+name = sys.argv[1]
+runs = sys.argv[2]
+pts = PhoronixTestSuite(path, name, runs)
+if sys.argv[3] == 'install':
     pts.install_tests()
-elif sys.argv[1] == 'run':
+elif sys.argv[3] == 'run':
     pts.run_tests()
 else:
     raise Exception("Sorry, your last argument was invalid. Exiting...")

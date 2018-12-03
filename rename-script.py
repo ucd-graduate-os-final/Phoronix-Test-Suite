@@ -1,14 +1,12 @@
 import os
+import sys
 import xmltodict
-path = r'C:\Users\John Becker\Dropbox\Documents\School Stuff\UC Denver New Degree\Fall 2018\Operating Systems\Phoronix-Test-Suite\docker_scalable'
-tests = ['blogbench', 'c-ray', 'cachebench', 'dacapobench', 'dolfyn', 'glibc-bench',
-                       'himeno', 'hmmer', 'hpcg', 'iperf', 'lammps', 'm-queens', 'mcperf',
-                       'mrbayes', 'namd', 'netperf', 'osbench', 'pjdfstest', 'polybench-c',
-                       'primesieve', 'psstop', 'sample-program', 'schbench', 'startup-time', 'stockfish',
-                       'sysbench', 'systemd-boot-kernel', 'systemd-boot-total', 'systemd-boot-userspace-1.0.1',
-                       'tachyon']
-
-
+print(len(sys.argv))
+if(len(sys.argv)) != 2:
+    raise Exception("This file takes 2 arguments. Exiting...")
+path = sys.argv[2]
+if not os.path.exists(path):
+    raise Exception("Folder {} does not exist. Exiting...".format(path))
 paths = os.listdir(path)
 results = {}
 # Get paths that need name changed

@@ -9,11 +9,11 @@ if(len(sys.argv)) != 2:
 class PhoronixTestSuite:
     def __init__(self, folder_path):
         #self._tests = ['blogbench', 'c-ray', 'cachebench', 'dacapobench', 'dolfyn', 'glibc-bench',
-                       'himeno', 'hmmer', 'hpcg', 'iperf', 'lammps', 'm-queens', 'mcperf',
-                       'mrbayes', 'namd', 'netperf', 'osbench', 'pjdfstest', 'polybench-c',
-                       'primesieve', 'psstop', 'sample-program', 'schbench', 'startup-time', 'stockfish',
-                       'sysbench', 'systemd-boot-kernel', 'systemd-boot-total', 'systemd-boot-userspace-1.0.1',
-                       'tachyon']
+        #               'himeno', 'hmmer', 'hpcg', 'iperf', 'lammps', 'm-queens', 'mcperf',
+        #               'mrbayes', 'namd', 'netperf', 'osbench', 'pjdfstest', 'polybench-c',
+        #               'primesieve', 'psstop', 'sample-program', 'schbench', 'startup-time', 'stockfish',
+        #               'sysbench', 'systemd-boot-kernel', 'systemd-boot-total', 'systemd-boot-userspace-1.0.1',
+        #               'tachyon']
         #self._tests = ['himeno']
         self._tests = ['dolfyn', 'glibc-bench']
         self._magic = str(datetime.datetime.now()).replace(' ', '').replace(':', '').replace('.', '').replace('-', '')

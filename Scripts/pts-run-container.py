@@ -15,7 +15,7 @@ class PhoronixTestSuite:
         #               'sysbench', 'systemd-boot-kernel', 'systemd-boot-total', 'systemd-boot-userspace-1.0.1',
         #               'tachyon']
         #self._tests = ['himeno']
-        self._tests = ['dolfyn', 'glibc-bench']
+        self._tests = ['glibc-bench']
         self._magic = str(datetime.datetime.now()).replace(' ', '').replace(':', '').replace('.', '').replace('-', '')
         self._git_name = 'https://github.com/ucd-graduate-os-final/Phoronix-Test-Suite'
         self._git_folder = folder_path

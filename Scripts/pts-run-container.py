@@ -53,7 +53,7 @@ class PhoronixTestSuite:
         os.system('git push origin master')
         os.system('git pull {}'.format(self._git_name))
 
-path = '~/pts_project'
+path = '/root/pts_project'
 pts = PhoronixTestSuite(path)
 if sys.argv[1] == 'install':
     pts.install_tests()

@@ -2,4 +2,4 @@
 
 cd /root/pts_project/
 
-python3 Scripts/pts-demo.py vm_test 1 run
+python3 Scripts/pts-run-container.py run
